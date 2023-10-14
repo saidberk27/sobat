@@ -39,25 +39,46 @@ Sobat::Sobat(
 
 }
 
-void Sobat::moveForward(){
-    Serial.println("Moving Forward...");
+void Sobat::setup(){
+  Serial.println("Setup");
   esc1.attach(6);
   esc2.attach(9);
   esc3.attach(10);
   esc4.attach(11);
 
- for(int speed = 1510; speed <= 1950; speed = speed + 10){
-        esc1.writeMicroseconds(speed);
-        esc2.writeMicroseconds(speed);
-        esc3.writeMicroseconds(speed);
-        esc4.writeMicroseconds(speed);
-        esc5.writeMicroseconds(speed);
-        esc6.writeMicroseconds(speed);
-     
-        delay(100);
-        Serial.println(speed);
- }
+  delay(3500);
+  esc1.writeMicroseconds(1500);
+  delay(100);
+  esc1.writeMicroseconds(2000);
 
+}
+
+void Sobat::moveForward(){
+    Serial.println("Moving Forward...");
+      for(int speed = 1941; speed <= 1950; speed = speed + 10){
+
+          esc1.writeMicroseconds(speed);
+          esc2.writeMicroseconds(speed);
+          esc3.writeMicroseconds(speed);
+          esc4.writeMicroseconds(speed);
+          esc5.writeMicroseconds(speed);
+          esc6.writeMicroseconds(speed); 
+      
+          delay(100);
+          Serial.println(speed);
+ }
+}
+
+void Sobat::stop(){
+    Serial.println("Stopping...");
+        esc1.writeMicroseconds(1500);
+        esc2.writeMicroseconds(1500);
+        esc3.writeMicroseconds(1500);
+        esc4.writeMicroseconds(1500);
+        esc5.writeMicroseconds(1500);
+        esc6.writeMicroseconds(1500); 
+        
+        delay(100);
 }
 
 void Sobat::getPinInfo() {
