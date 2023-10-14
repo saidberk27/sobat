@@ -21,7 +21,7 @@ public:
   int trigPin
   );  // Kurucu fonksiyon
   void getPinInfo();  // Örnek işlev
-
+  void moveForward();
 private:
   int _M1;
   int _M2;

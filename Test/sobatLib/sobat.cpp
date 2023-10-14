@@ -1,4 +1,13 @@
 #include "Sobat.h"
+#include <Servo.h>
+
+Servo esc1; // 1. motorun ESC'si
+Servo esc2; // 2. motorun ESC'si
+Servo esc3; // 3. motorun ESC'si
+Servo esc4; // 4. motorun ESC'si
+Servo esc5; // 5. Motorun ESC’si
+Servo esc6; // 6. Motorun ESC’si
+
 
 Sobat::Sobat(
   int M1,
@@ -26,7 +35,29 @@ Sobat::Sobat(
   _L2 = L2;
   _servoPin = servoPin;
   _echoPin = echoPin;
-  _trigPin = trigPin;  // M1 değerini özel özelliğe (_M1) atama
+  _trigPin = trigPin;
+
+}
+
+void Sobat::moveForward(){
+    Serial.println("Moving Forward...");
+  esc1.attach(6);
+  esc2.attach(9);
+  esc3.attach(10);
+  esc4.attach(11);
+
+ for(int speed = 1510; speed <= 1950; speed = speed + 10){
+        esc1.writeMicroseconds(speed);
+        esc2.writeMicroseconds(speed);
+        esc3.writeMicroseconds(speed);
+        esc4.writeMicroseconds(speed);
+        esc5.writeMicroseconds(speed);
+        esc6.writeMicroseconds(speed);
+     
+        delay(100);
+        Serial.println(speed);
+ }
+
 }
 
 void Sobat::getPinInfo() {
