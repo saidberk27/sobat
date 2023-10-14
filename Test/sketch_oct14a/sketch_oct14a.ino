@@ -19,8 +19,11 @@ Sobat sobat(M1, M2, M3, M4, M5, M6, L1, L2, servoPin, echoPin, trigPin); // M1 d
 void setup() {
   Serial.begin(9600);
   sobat.getPinInfo();
+  sobat.setup();
 }
 void loop() {
    sobat.moveForward();
-   delay(1000);
+   delay(3000);
+   sobat.stop();
+   delay(1000000);
 }
