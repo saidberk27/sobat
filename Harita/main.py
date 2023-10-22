@@ -1,17 +1,21 @@
 import sys
 import random
 import time
+import serial
+
 import matplotlib.pyplot as plt
 from PyQt5.QtWidgets import QApplication, QMainWindow
 from matplotlib.figure import Figure
 from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
 
 class RealTimePlot(QMainWindow):
-    map_height = 20
-    map_width = 20
+    map_height = 100
+    map_width = 100
 
     def __init__(self):
         super().__init__()
+
+        self.ser = serial.Serial('COM8', 9600)  # Arduino'nun bağlantı hızına uygun hızı ayarlayın
 
         self.figure = Figure()
         self.canvas = FigureCanvas(self.figure)
@@ -42,12 +46,19 @@ class RealTimePlot(QMainWindow):
         self.ax.imshow(image, extent=extent)
 
     def update_plot(self):
-        x = random.uniform(0, self.map_height)
-        y = random.uniform(0, self.map_width)
+        data = self.ser.readline()
+        data_str = data.decode('utf-8')
+        filtered_data = int(''.join(filter(str.isdigit, data_str)))
+
+
+        x = 50
+        y = filtered_data
+
         self.ax.scatter(x, y, color='red', s=10)
         self.canvas.draw()
 
 if __name__ == '__main__':
+
     app = QApplication(sys.argv)
     window = RealTimePlot()
     sys.exit(app.exec_())
