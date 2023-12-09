@@ -1,0 +1,8 @@
+prefix=/home/said/Desktop/ROSWorkSpace/install
+
+Name: test
+Description: Description of test
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 

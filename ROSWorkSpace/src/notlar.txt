@@ -1,0 +1,11 @@
+node tanımı yaptıktan sonra test/CMakeLists.txt altına dosyadaki yerine node dosyalarını tanımla.
+node yazınca catkin_make unutma
+source devel/setup.bash ver.
+rosrun test(paket adı) publisher_node.py
+
+service çalışmaması normal
+
+/-------
+roscore sıkıntı çıkarırsa roskill -9 rosmaster
+package.xml'de   <exec_depend>message_runtime</exec_depend> ve   <build_depend>message_generation</build_depend> yorum satınırını kaldır (custom message için)
+
