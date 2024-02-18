@@ -80,16 +80,16 @@ while True:
                     elif offset_y < 0:
                         instructions.append(f"Run engines 2 and 5 at speed {motor_speed} to move the shape up.")
 
+                    # If the current instructions are different from the previous ones, print the new instructions
+                    if instructions != previous_instructions:
+                        print(" ".join(instructions))
+                        previous_instructions = instructions  # Store the new instructions
+
                     # Check the object size and provide additional instructions based on proximity
                     if object_size < 50:  # You can adjust this threshold based on your needs
                         instructions.append("The object is far away. Move closer for a better view.")
                     elif object_size > 200:  # You can adjust this threshold based on your needs
                         instructions.append("The object is very close. Be cautious!")
-                    
-                    # If the current instructions are different from the previous ones, print the new instructions
-                    if instructions != previous_instructions:
-                        print(" ".join(instructions))
-                        previous_instructions = instructions  # Store the new instructions
 
                 # Draw a cross at the center of the frame
                 cv2.line(frame, (frame_center_x - 10, frame_center_y), (frame_center_x + 10, frame_center_y),
