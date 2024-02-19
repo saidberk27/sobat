@@ -1,0 +1,6 @@
+Invoking command in '/home/said/Desktop/rosWS/build/gnnss_data': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/said/Desktop/rosWS/src/gnnss_data -DCMAKE_INSTALL_PREFIX=/home/said/Desktop/rosWS/install/gnnss_data
+Invoked command in '/home/said/Desktop/rosWS/build/gnnss_data' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/said/Desktop/rosWS/src/gnnss_data -DCMAKE_INSTALL_PREFIX=/home/said/Desktop/rosWS/install/gnnss_data
+Invoking command in '/home/said/Desktop/rosWS/build/gnnss_data': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/said/Desktop/rosWS/build/gnnss_data -- -j8 -l8
+Invoked command in '/home/said/Desktop/rosWS/build/gnnss_data' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/said/Desktop/rosWS/build/gnnss_data -- -j8 -l8
+Invoking command in '/home/said/Desktop/rosWS/build/gnnss_data': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/said/Desktop/rosWS/build/gnnss_data
+Invoked command in '/home/said/Desktop/rosWS/build/gnnss_data' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/said/Desktop/rosWS/build/gnnss_data
