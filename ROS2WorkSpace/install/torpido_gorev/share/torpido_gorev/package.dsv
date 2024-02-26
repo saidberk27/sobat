@@ -1,0 +1,6 @@
+source;share/torpido_gorev/hook/pythonpath.ps1
+source;share/torpido_gorev/hook/pythonpath.dsv
+source;share/torpido_gorev/hook/pythonpath.sh
+source;share/torpido_gorev/hook/ament_prefix_path.ps1
+source;share/torpido_gorev/hook/ament_prefix_path.dsv
+source;share/torpido_gorev/hook/ament_prefix_path.sh
