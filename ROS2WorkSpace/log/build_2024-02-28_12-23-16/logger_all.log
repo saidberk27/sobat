@@ -1,0 +1,150 @@
+[3.902s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'halka_gorev']
+[3.902s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f90b4a33ca0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['halka_gorev'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f90b4a33ca0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f90b4a3d130>)
+[4.063s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[4.063s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[4.063s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[4.063s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[4.063s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[4.063s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[4.063s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/said/Desktop/sobat/ROS2WorkSpace'
+[4.063s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[4.063s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[4.063s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[4.063s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[4.063s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[4.063s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[4.063s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[4.063s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[4.063s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[4.071s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[4.071s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[4.071s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[4.071s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[4.072s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[4.072s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[4.072s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[4.072s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[4.072s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[4.072s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[4.072s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[4.072s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[4.072s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[4.072s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[4.072s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[4.072s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[4.072s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[4.072s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[4.073s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[4.073s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[4.073s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[4.073s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[4.073s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[4.073s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[4.073s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[4.073s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[4.073s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[4.073s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[4.073s] Level 1:colcon.colcon_core.package_identification:_identify(src/halka_gorev) by extensions ['ignore', 'ignore_ament_install']
+[4.073s] Level 1:colcon.colcon_core.package_identification:_identify(src/halka_gorev) by extension 'ignore'
+[4.073s] Level 1:colcon.colcon_core.package_identification:_identify(src/halka_gorev) by extension 'ignore_ament_install'
+[4.073s] Level 1:colcon.colcon_core.package_identification:_identify(src/halka_gorev) by extensions ['colcon_pkg']
+[4.073s] Level 1:colcon.colcon_core.package_identification:_identify(src/halka_gorev) by extension 'colcon_pkg'
+[4.073s] Level 1:colcon.colcon_core.package_identification:_identify(src/halka_gorev) by extensions ['colcon_meta']
+[4.073s] Level 1:colcon.colcon_core.package_identification:_identify(src/halka_gorev) by extension 'colcon_meta'
+[4.073s] Level 1:colcon.colcon_core.package_identification:_identify(src/halka_gorev) by extensions ['ros']
+[4.073s] Level 1:colcon.colcon_core.package_identification:_identify(src/halka_gorev) by extension 'ros'
+[4.075s] DEBUG:colcon.colcon_core.package_identification:Package 'src/halka_gorev' with type 'ros.ament_python' and name 'halka_gorev'
+[4.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/kablo_gorev) by extensions ['ignore', 'ignore_ament_install']
+[4.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/kablo_gorev) by extension 'ignore'
+[4.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/kablo_gorev) by extension 'ignore_ament_install'
+[4.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/kablo_gorev) by extensions ['colcon_pkg']
+[4.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/kablo_gorev) by extension 'colcon_pkg'
+[4.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/kablo_gorev) by extensions ['colcon_meta']
+[4.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/kablo_gorev) by extension 'colcon_meta'
+[4.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/kablo_gorev) by extensions ['ros']
+[4.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/kablo_gorev) by extension 'ros'
+[4.076s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kablo_gorev' with type 'ros.ament_python' and name 'kablo_gorev'
+[4.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/torpido_gorev) by extensions ['ignore', 'ignore_ament_install']
+[4.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/torpido_gorev) by extension 'ignore'
+[4.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/torpido_gorev) by extension 'ignore_ament_install'
+[4.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/torpido_gorev) by extensions ['colcon_pkg']
+[4.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/torpido_gorev) by extension 'colcon_pkg'
+[4.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/torpido_gorev) by extensions ['colcon_meta']
+[4.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/torpido_gorev) by extension 'colcon_meta'
+[4.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/torpido_gorev) by extensions ['ros']
+[4.077s] Level 1:colcon.colcon_core.package_identification:_identify(src/torpido_gorev) by extension 'ros'
+[4.077s] DEBUG:colcon.colcon_core.package_identification:Package 'src/torpido_gorev' with type 'ros.ament_python' and name 'torpido_gorev'
+[4.077s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[4.077s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[4.077s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[4.077s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[4.077s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[4.302s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'kablo_gorev' in 'src/kablo_gorev'
+[4.302s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'torpido_gorev' in 'src/torpido_gorev'
+[4.443s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[4.443s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[4.589s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/said/Desktop/sobat/ROS2WorkSpace/install
+[4.658s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/said/turtlebot3_ws/install
+[4.730s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 334 installed packages in /opt/ros/foxy
+[4.731s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[4.944s] Level 5:colcon.colcon_core.verb:set package 'halka_gorev' build argument 'cmake_args' from command line to 'None'
+[4.945s] Level 5:colcon.colcon_core.verb:set package 'halka_gorev' build argument 'cmake_target' from command line to 'None'
+[4.945s] Level 5:colcon.colcon_core.verb:set package 'halka_gorev' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.945s] Level 5:colcon.colcon_core.verb:set package 'halka_gorev' build argument 'cmake_clean_cache' from command line to 'False'
+[4.945s] Level 5:colcon.colcon_core.verb:set package 'halka_gorev' build argument 'cmake_clean_first' from command line to 'False'
+[4.945s] Level 5:colcon.colcon_core.verb:set package 'halka_gorev' build argument 'cmake_force_configure' from command line to 'False'
+[4.945s] Level 5:colcon.colcon_core.verb:set package 'halka_gorev' build argument 'ament_cmake_args' from command line to 'None'
+[4.945s] Level 5:colcon.colcon_core.verb:set package 'halka_gorev' build argument 'catkin_cmake_args' from command line to 'None'
+[4.945s] Level 5:colcon.colcon_core.verb:set package 'halka_gorev' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.945s] DEBUG:colcon.colcon_core.verb:Building package 'halka_gorev' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/said/Desktop/sobat/ROS2WorkSpace/build/halka_gorev', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/said/Desktop/sobat/ROS2WorkSpace/install/halka_gorev', 'merge_install': False, 'path': '/home/said/Desktop/sobat/ROS2WorkSpace/src/halka_gorev', 'symlink_install': False, 'test_result_base': None}
+[5.015s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[5.086s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[5.086s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/said/Desktop/sobat/ROS2WorkSpace/src/halka_gorev' with build type 'ament_python'
+[5.086s] Level 1:colcon.colcon_core.shell:create_environment_hook('halka_gorev', 'ament_prefix_path')
+[5.161s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[5.161s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/said/Desktop/sobat/ROS2WorkSpace/install/halka_gorev/share/halka_gorev/hook/ament_prefix_path.ps1'
+[5.161s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/said/Desktop/sobat/ROS2WorkSpace/install/halka_gorev/share/halka_gorev/hook/ament_prefix_path.dsv'
+[5.162s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/said/Desktop/sobat/ROS2WorkSpace/install/halka_gorev/share/halka_gorev/hook/ament_prefix_path.sh'
+[5.235s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.235s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.689s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/said/Desktop/sobat/ROS2WorkSpace/src/halka_gorev'
+[5.762s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.762s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.332s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/said/Desktop/sobat/ROS2WorkSpace/src/halka_gorev': PYTHONPATH=/home/said/Desktop/sobat/ROS2WorkSpace/build/halka_gorev/prefix_override:/home/said/Desktop/sobat/ROS2WorkSpace/install/halka_gorev/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/halka_gorev build --build-base /home/said/Desktop/sobat/ROS2WorkSpace/build/halka_gorev/build install --record /home/said/Desktop/sobat/ROS2WorkSpace/build/halka_gorev/install.log --install-scripts $base/lib/halka_gorev --single-version-externally-managed
+[6.550s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/said/Desktop/sobat/ROS2WorkSpace/src/halka_gorev' returned '0': PYTHONPATH=/home/said/Desktop/sobat/ROS2WorkSpace/build/halka_gorev/prefix_override:/home/said/Desktop/sobat/ROS2WorkSpace/install/halka_gorev/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/halka_gorev build --build-base /home/said/Desktop/sobat/ROS2WorkSpace/build/halka_gorev/build install --record /home/said/Desktop/sobat/ROS2WorkSpace/build/halka_gorev/install.log --install-scripts $base/lib/halka_gorev --single-version-externally-managed
+[6.627s] Level 1:colcon.colcon_core.environment:checking '/home/said/Desktop/sobat/ROS2WorkSpace/install/halka_gorev' for CMake module files
+[6.627s] Level 1:colcon.colcon_core.environment:checking '/home/said/Desktop/sobat/ROS2WorkSpace/install/halka_gorev' for CMake config files
+[6.628s] Level 1:colcon.colcon_core.environment:checking '/home/said/Desktop/sobat/ROS2WorkSpace/install/halka_gorev/lib'
+[6.628s] Level 1:colcon.colcon_core.environment:checking '/home/said/Desktop/sobat/ROS2WorkSpace/install/halka_gorev/bin'
+[6.628s] Level 1:colcon.colcon_core.environment:checking '/home/said/Desktop/sobat/ROS2WorkSpace/install/halka_gorev/lib/pkgconfig/halka_gorev.pc'
+[6.628s] Level 1:colcon.colcon_core.environment:checking '/home/said/Desktop/sobat/ROS2WorkSpace/install/halka_gorev/lib/python3.8/site-packages'
+[6.628s] Level 1:colcon.colcon_core.shell:create_environment_hook('halka_gorev', 'pythonpath')
+[6.701s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/said/Desktop/sobat/ROS2WorkSpace/install/halka_gorev/share/halka_gorev/hook/pythonpath.ps1'
+[6.701s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/said/Desktop/sobat/ROS2WorkSpace/install/halka_gorev/share/halka_gorev/hook/pythonpath.dsv'
+[6.702s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/said/Desktop/sobat/ROS2WorkSpace/install/halka_gorev/share/halka_gorev/hook/pythonpath.sh'
+[6.702s] Level 1:colcon.colcon_core.environment:checking '/home/said/Desktop/sobat/ROS2WorkSpace/install/halka_gorev/bin'
+[6.702s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(halka_gorev)
+[6.782s] INFO:colcon.colcon_core.shell:Creating package script '/home/said/Desktop/sobat/ROS2WorkSpace/install/halka_gorev/share/halka_gorev/package.ps1'
+[6.783s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/said/Desktop/sobat/ROS2WorkSpace/install/halka_gorev/share/halka_gorev/package.dsv'
+[6.783s] INFO:colcon.colcon_core.shell:Creating package script '/home/said/Desktop/sobat/ROS2WorkSpace/install/halka_gorev/share/halka_gorev/package.sh'
+[6.784s] INFO:colcon.colcon_core.shell:Creating package script '/home/said/Desktop/sobat/ROS2WorkSpace/install/halka_gorev/share/halka_gorev/package.bash'
+[6.784s] INFO:colcon.colcon_core.shell:Creating package script '/home/said/Desktop/sobat/ROS2WorkSpace/install/halka_gorev/share/halka_gorev/package.zsh'
+[6.785s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/said/Desktop/sobat/ROS2WorkSpace/install/halka_gorev/share/colcon-core/packages/halka_gorev)
+[6.785s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.785s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.785s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.785s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.862s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.862s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.862s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.874s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.948s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/said/Desktop/sobat/ROS2WorkSpace/install/local_setup.ps1'
+[6.949s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/said/Desktop/sobat/ROS2WorkSpace/install/_local_setup_util_ps1.py'
+[6.951s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/said/Desktop/sobat/ROS2WorkSpace/install/setup.ps1'
+[7.027s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/said/Desktop/sobat/ROS2WorkSpace/install/local_setup.sh'
+[7.027s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/said/Desktop/sobat/ROS2WorkSpace/install/_local_setup_util_sh.py'
+[7.028s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/said/Desktop/sobat/ROS2WorkSpace/install/setup.sh'
+[7.102s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/said/Desktop/sobat/ROS2WorkSpace/install/local_setup.bash'
+[7.102s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/said/Desktop/sobat/ROS2WorkSpace/install/setup.bash'
+[7.175s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/said/Desktop/sobat/ROS2WorkSpace/install/local_setup.zsh'
+[7.175s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/said/Desktop/sobat/ROS2WorkSpace/install/setup.zsh'

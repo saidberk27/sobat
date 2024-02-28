@@ -20,6 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'dummy_mesafe = halka_gorev.dummy_mesafe_sensoru:main',
+            'halka_arama = halka_gorev.halka_arama:main'
         ],
     },
 )

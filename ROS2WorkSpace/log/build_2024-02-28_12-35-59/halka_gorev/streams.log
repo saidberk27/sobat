@@ -1,0 +1,26 @@
+[1.243s] Invoking command in '/home/said/Desktop/sobat/ROS2WorkSpace/src/halka_gorev': PYTHONPATH=/home/said/Desktop/sobat/ROS2WorkSpace/build/halka_gorev/prefix_override:/home/said/Desktop/sobat/ROS2WorkSpace/install/halka_gorev/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/halka_gorev build --build-base /home/said/Desktop/sobat/ROS2WorkSpace/build/halka_gorev/build install --record /home/said/Desktop/sobat/ROS2WorkSpace/build/halka_gorev/install.log --install-scripts $base/lib/halka_gorev --single-version-externally-managed
+[1.396s] running egg_info
+[1.397s] writing ../../build/halka_gorev/halka_gorev.egg-info/PKG-INFO
+[1.397s] writing dependency_links to ../../build/halka_gorev/halka_gorev.egg-info/dependency_links.txt
+[1.397s] writing entry points to ../../build/halka_gorev/halka_gorev.egg-info/entry_points.txt
+[1.397s] writing requirements to ../../build/halka_gorev/halka_gorev.egg-info/requires.txt
+[1.397s] writing top-level names to ../../build/halka_gorev/halka_gorev.egg-info/top_level.txt
+[1.423s] reading manifest file '../../build/halka_gorev/halka_gorev.egg-info/SOURCES.txt'
+[1.424s] writing manifest file '../../build/halka_gorev/halka_gorev.egg-info/SOURCES.txt'
+[1.424s] running build
+[1.424s] running build_py
+[1.424s] copying halka_gorev/dummy_mesafe_sensoru.py -> /home/said/Desktop/sobat/ROS2WorkSpace/build/halka_gorev/build/lib/halka_gorev
+[1.424s] running install
+[1.425s] running install_lib
+[1.426s] copying /home/said/Desktop/sobat/ROS2WorkSpace/build/halka_gorev/build/lib/halka_gorev/dummy_mesafe_sensoru.py -> /home/said/Desktop/sobat/ROS2WorkSpace/install/halka_gorev/lib/python3.8/site-packages/halka_gorev
+[1.426s] byte-compiling /home/said/Desktop/sobat/ROS2WorkSpace/install/halka_gorev/lib/python3.8/site-packages/halka_gorev/dummy_mesafe_sensoru.py to dummy_mesafe_sensoru.cpython-38.pyc
+[1.427s] running install_data
+[1.427s] running install_egg_info
+[1.428s] removing '/home/said/Desktop/sobat/ROS2WorkSpace/install/halka_gorev/lib/python3.8/site-packages/halka_gorev-0.0.0-py3.8.egg-info' (and everything under it)
+[1.429s] Copying ../../build/halka_gorev/halka_gorev.egg-info to /home/said/Desktop/sobat/ROS2WorkSpace/install/halka_gorev/lib/python3.8/site-packages/halka_gorev-0.0.0-py3.8.egg-info
+[1.429s] running install_scripts
+[1.442s] Installing dummy_mesafe script to /home/said/Desktop/sobat/ROS2WorkSpace/install/halka_gorev/lib/halka_gorev
+[1.443s] Installing halka_arama script to /home/said/Desktop/sobat/ROS2WorkSpace/install/halka_gorev/lib/halka_gorev
+[1.443s] Installing main script to /home/said/Desktop/sobat/ROS2WorkSpace/install/halka_gorev/lib/halka_gorev
+[1.443s] writing list of installed files to '/home/said/Desktop/sobat/ROS2WorkSpace/build/halka_gorev/install.log'
+[1.458s] Invoked command in '/home/said/Desktop/sobat/ROS2WorkSpace/src/halka_gorev' returned '0': PYTHONPATH=/home/said/Desktop/sobat/ROS2WorkSpace/build/halka_gorev/prefix_override:/home/said/Desktop/sobat/ROS2WorkSpace/install/halka_gorev/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/halka_gorev build --build-base /home/said/Desktop/sobat/ROS2WorkSpace/build/halka_gorev/build install --record /home/said/Desktop/sobat/ROS2WorkSpace/build/halka_gorev/install.log --install-scripts $base/lib/halka_gorev --single-version-externally-managed

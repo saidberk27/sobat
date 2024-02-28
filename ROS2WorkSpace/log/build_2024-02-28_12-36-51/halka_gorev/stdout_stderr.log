@@ -1,0 +1,24 @@
+running egg_info
+writing ../../build/halka_gorev/halka_gorev.egg-info/PKG-INFO
+writing dependency_links to ../../build/halka_gorev/halka_gorev.egg-info/dependency_links.txt
+writing entry points to ../../build/halka_gorev/halka_gorev.egg-info/entry_points.txt
+writing requirements to ../../build/halka_gorev/halka_gorev.egg-info/requires.txt
+writing top-level names to ../../build/halka_gorev/halka_gorev.egg-info/top_level.txt
+reading manifest file '../../build/halka_gorev/halka_gorev.egg-info/SOURCES.txt'
+writing manifest file '../../build/halka_gorev/halka_gorev.egg-info/SOURCES.txt'
+running build
+running build_py
+copying halka_gorev/dummy_mesafe_sensoru.py -> /home/said/Desktop/sobat/ROS2WorkSpace/build/halka_gorev/build/lib/halka_gorev
+running install
+running install_lib
+copying /home/said/Desktop/sobat/ROS2WorkSpace/build/halka_gorev/build/lib/halka_gorev/dummy_mesafe_sensoru.py -> /home/said/Desktop/sobat/ROS2WorkSpace/install/halka_gorev/lib/python3.8/site-packages/halka_gorev
+byte-compiling /home/said/Desktop/sobat/ROS2WorkSpace/install/halka_gorev/lib/python3.8/site-packages/halka_gorev/dummy_mesafe_sensoru.py to dummy_mesafe_sensoru.cpython-38.pyc
+running install_data
+running install_egg_info
+removing '/home/said/Desktop/sobat/ROS2WorkSpace/install/halka_gorev/lib/python3.8/site-packages/halka_gorev-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/halka_gorev/halka_gorev.egg-info to /home/said/Desktop/sobat/ROS2WorkSpace/install/halka_gorev/lib/python3.8/site-packages/halka_gorev-0.0.0-py3.8.egg-info
+running install_scripts
+Installing dummy_mesafe script to /home/said/Desktop/sobat/ROS2WorkSpace/install/halka_gorev/lib/halka_gorev
+Installing halka_arama script to /home/said/Desktop/sobat/ROS2WorkSpace/install/halka_gorev/lib/halka_gorev
+Installing main script to /home/said/Desktop/sobat/ROS2WorkSpace/install/halka_gorev/lib/halka_gorev
+writing list of installed files to '/home/said/Desktop/sobat/ROS2WorkSpace/build/halka_gorev/install.log'
