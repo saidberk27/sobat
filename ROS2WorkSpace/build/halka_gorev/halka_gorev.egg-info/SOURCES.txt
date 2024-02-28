@@ -11,6 +11,8 @@ setup.py
 halka_gorev/__init__.py
 halka_gorev/dummy_mesafe_sensoru.py
 halka_gorev/halka_arama.py
+halka_gorev/mesafe_sensor_donanim.py
+halka_gorev/mesafe_sensor_oku_node.py
 resource/halka_gorev
 test/test_copyright.py
 test/test_flake8.py

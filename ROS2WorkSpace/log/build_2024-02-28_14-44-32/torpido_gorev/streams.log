@@ -1,0 +1,20 @@
+[1.656s] Invoking command in '/home/said/Desktop/sobat/ROS2WorkSpace/src/torpido_gorev': PYTHONPATH=/home/said/Desktop/sobat/ROS2WorkSpace/build/torpido_gorev/prefix_override:/home/said/Desktop/sobat/ROS2WorkSpace/install/torpido_gorev/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/torpido_gorev build --build-base /home/said/Desktop/sobat/ROS2WorkSpace/build/torpido_gorev/build install --record /home/said/Desktop/sobat/ROS2WorkSpace/build/torpido_gorev/install.log --install-scripts $base/lib/torpido_gorev --single-version-externally-managed
+[1.817s] running egg_info
+[1.817s] writing ../../build/torpido_gorev/torpido_gorev.egg-info/PKG-INFO
+[1.817s] writing dependency_links to ../../build/torpido_gorev/torpido_gorev.egg-info/dependency_links.txt
+[1.818s] writing entry points to ../../build/torpido_gorev/torpido_gorev.egg-info/entry_points.txt
+[1.819s] writing requirements to ../../build/torpido_gorev/torpido_gorev.egg-info/requires.txt
+[1.819s] writing top-level names to ../../build/torpido_gorev/torpido_gorev.egg-info/top_level.txt
+[1.845s] reading manifest file '../../build/torpido_gorev/torpido_gorev.egg-info/SOURCES.txt'
+[1.846s] writing manifest file '../../build/torpido_gorev/torpido_gorev.egg-info/SOURCES.txt'
+[1.846s] running build
+[1.847s] running build_py
+[1.847s] running install
+[1.848s] running install_lib
+[1.849s] running install_data
+[1.850s] running install_egg_info
+[1.851s] removing '/home/said/Desktop/sobat/ROS2WorkSpace/install/torpido_gorev/lib/python3.8/site-packages/torpido_gorev-0.0.0-py3.8.egg-info' (and everything under it)
+[1.852s] Copying ../../build/torpido_gorev/torpido_gorev.egg-info to /home/said/Desktop/sobat/ROS2WorkSpace/install/torpido_gorev/lib/python3.8/site-packages/torpido_gorev-0.0.0-py3.8.egg-info
+[1.853s] running install_scripts
+[1.864s] writing list of installed files to '/home/said/Desktop/sobat/ROS2WorkSpace/build/torpido_gorev/install.log'
+[2.446s] Invoked command in '/home/said/Desktop/sobat/ROS2WorkSpace/src/torpido_gorev' returned '0': PYTHONPATH=/home/said/Desktop/sobat/ROS2WorkSpace/build/torpido_gorev/prefix_override:/home/said/Desktop/sobat/ROS2WorkSpace/install/torpido_gorev/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/torpido_gorev build --build-base /home/said/Desktop/sobat/ROS2WorkSpace/build/torpido_gorev/build install --record /home/said/Desktop/sobat/ROS2WorkSpace/build/torpido_gorev/install.log --install-scripts $base/lib/torpido_gorev --single-version-externally-managed

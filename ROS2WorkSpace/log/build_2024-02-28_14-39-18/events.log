@@ -1,0 +1,6 @@
+[0.000000] (-) TimerEvent: {}
+[0.000601] (-) JobUnselected: {'identifier': 'halka_gorev'}
+[0.000668] (-) JobUnselected: {'identifier': 'kablo_gorev'}
+[0.000688] (-) JobUnselected: {'identifier': 'sobat_interfaces'}
+[0.000703] (-) JobUnselected: {'identifier': 'torpido_gorev'}
+[0.000777] (-) EventReactorShutdown: {}

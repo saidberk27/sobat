@@ -1,19 +1,27 @@
 import rclpy
 from rclpy.node import Node
+from rclpy.qos import QoSProfile
 
-from std_msgs.msg import Float32
+from sobat_interfaces.msg import MesafeSensor
+
 import random
 
 class DummyMesafeSensoruNode(Node):
 
     def __init__(self):
         super().__init__('dummy_mesafe_sensoru')
-        self.publisher_ = self.create_publisher(Float32, 'mesafe2', 10)
+        qos_profile = QoSProfile(depth=10)
+        self.publisher_ = self.create_publisher(MesafeSensor, '/mesafe_sensor', 10)
         self.timer_ = self.create_timer(0.1, self.timer_callback)
 
     def timer_callback(self):
-        msg = Float32()
-        msg.data = random.uniform(0.0, 20.0)  # Mesafe aralığı 0 - 10 metre olarak belirlenmiştir.
+        msg = MesafeSensor()
+        msg.mesafe_sensor1 = random.uniform(0.0, 20.0)
+        msg.mesafe_sensor2 = random.uniform(0.0, 20.0)
+        msg.mesafe_sensor3 = random.uniform(0.0, 20.0)
+        msg.mesafe_sensor4 = random.uniform(0.0, 20.0)
+        msg.mesafe_sensor5 = random.uniform(0.0, 20.0)
+
         self.publisher_.publish(msg)
 
 def main(args=None):

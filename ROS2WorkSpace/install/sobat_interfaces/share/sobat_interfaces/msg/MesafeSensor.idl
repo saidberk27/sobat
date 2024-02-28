@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from sobat_interfaces/msg/MesafeSensor.msg
+// generated code does not contain a copyright notice
+
+
+module sobat_interfaces {
+  module msg {
+    struct MesafeSensor {
+      float mesafe_sensor1;
+
+      float mesafe_sensor2;
+
+      float mesafe_sensor3;
+
+      float mesafe_sensor4;
+
+      float mesafe_sensor5;
+    };
+  };
+};

@@ -21,7 +21,8 @@ setup(
     entry_points={
         'console_scripts': [
             'dummy_mesafe = halka_gorev.dummy_mesafe_sensoru:main',
-            'halka_arama = halka_gorev.halka_arama:main'
+            'halka_arama = halka_gorev.halka_arama:main',
+            'mesafe_sensoru_oku = halka_gorev.mesafe_sensor_oku_node'
         ],
     },
 )

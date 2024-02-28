@@ -1,0 +1,4 @@
+source;share/sobat_interfaces/local_setup.bash
+source;share/sobat_interfaces/local_setup.dsv
+source;share/sobat_interfaces/local_setup.sh
+source;share/sobat_interfaces/local_setup.zsh
