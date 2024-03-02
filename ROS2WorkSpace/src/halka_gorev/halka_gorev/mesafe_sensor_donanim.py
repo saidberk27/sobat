@@ -1,25 +1,6 @@
-## -*- coding:utf-8 -*-
-#A02YYUW Sensoru Icin Gecerli
-
-'''!
-  @file demo_get_distance.py
-  @brief Get ranging data.
-  @n Connect board with raspberryPi.
-  @n --------------------------------------------
-  @n sensor pin |         raspberry pi          |
-  @n     VCC    |            5V/3V3             |
-  @n     GND    |             GND               |
-  @n     RX     |          (BCM)14 TX           |
-  @n     TX     |          (BCM)15 RX           |
-  @n --------------------------------------------
-  @n
-  @Copyright   Copyright (c) 2010 DFRobot Co.Ltd (http://www.dfrobot.com)
-  @license     The MIT License (MIT)
-  @author [Arya](xue.peng@dfrobot.com)
-  @version  V1.0
-  @date  2019-8-31
-  @url https://github.com/DFRobot/DFRobot_RaspberryPi_A02YYUW
-'''
+import rclpy
+from rclpy.node import Node
+from sensor_msgs.msg import Range
 
 import sys
 import os
@@ -29,30 +10,42 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.realpath(__file__))))
 
 from DFRobot_RaspberryPi_A02YYUW import DFRobot_A02_Distance as Board
 
-board = Board()
+BOARD = Board()  # Create a global instance of the board object
 
-def print_distance(dis):
-  if board.last_operate_status == board.STA_OK:
-    print("Distance %d mm" %dis)
-  elif board.last_operate_status == board.STA_ERR_CHECKSUM:
-    print("ERROR")
-  elif board.last_operate_status == board.STA_ERR_SERIAL:
-    print("Serial open failed!")
-  elif board.last_operate_status == board.STA_ERR_CHECK_OUT_LIMIT:
-    print("Above the upper limit: %d" %dis)
-  elif board.last_operate_status == board.STA_ERR_CHECK_LOW_LIMIT:
-    print("Below the lower limit: %d" %dis)
-  elif board.last_operate_status == board.STA_ERR_DATA:
-    print("No data!")
+class DistancePublisher(Node):
 
-if __name__ == "__main__":
-  #Minimum ranging threshold: 0mm
-  dis_min = 0 
-  #Highest ranging threshold: 4500mm  
-  dis_max = 4500 
-  board.set_dis_range(dis_min, dis_max)
-  while True:
-    distance = board.getDistance()
-    print_distance(distance)
-    #Delay time < 0.6s
-    time.sleep(0.3) 
+    def __init__(self):
+        super().__init__('distance_publisher')
+        self.publisher = self.create_publisher(Range, 'distance', 10)
+
+        # Set sensor range limits
+        dis_min = 0
+        dis_max = 4500
+        BOARD.set_dis_range(dis_min, dis_max)
+
+        self.timer = self.create_timer(0.3, self.publish_distance)  # Timer for periodic publishing
+
+    def publish_distance(self):
+        distance = BOARD.getDistance()
+        message = Range()
+        message.header.stamp = self.get_clock().now().to_msg()
+        message.header.frame_id = 'distance_sensor'  # Set appropriate frame ID
+        message.radiation_type = Range.INFRARED  # Specify sensor type
+        message.field_of_view = 0.7  # Approximate field of view (radians)
+        message.min_range = dis_min
+        message.max_range = dis_max
+        message.range = distance
+
+        if BOARD.last_operate_status == BOARD.STA_OK:
+            self.publisher.publish(message)
+        else:
+            self.get_logger().error("Distance sensor error: %s", BOARD.last_operate_status)
+
+def main(args=None):
+    rclpy.init(args=args)
+    distance_publisher = DistancePublisher()
+    rclpy.spin(distance_publisher)
+    rclpy.shutdown()
+
+if __name__ == '__main__':
+    main()
