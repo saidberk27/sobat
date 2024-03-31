@@ -22,7 +22,7 @@ class LineDetector:
         try:
             frame = self.bridge.imgmsg_to_cv2(msg, "bgr8")
             #print(frame.shape[1])
-            cv2.imshow("frrrrr", frame)
+            cv2.imshow("anaframe", frame)
             frame_warped = warp_finder(frame)
             frame_blur = cv2.GaussianBlur(frame_warped, (5, 5), 15)
             mask = hsv_finder(frame_blur)
@@ -38,15 +38,14 @@ class LineDetector:
                     mx += M["m10"]
                     my += M["m01"]
                     marea += M["m00"]
-            print(marea)
+
             if marea != 0:
                 cx, cy = int(mx / marea), int(my / marea)
                 cv2.line(frame_warped, (cap_w // 2, cy), (cx, cy), (255, 0, 0), 6)
                 if cx <= (cap_w//2) + 40 and cx >= (cap_w//2) - 40:
                     print("Merkez Nokta")
-                print(cap_w)
+                print(cap_w//2)
                 print(cx)
-
             # Display the image
                 
             cv2.imshow("mask", mask)

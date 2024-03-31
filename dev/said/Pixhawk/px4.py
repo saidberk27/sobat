@@ -3,12 +3,12 @@ from pymavlink import mavutil
 import time
 
 # Bağlantı parametrelerini ayarla
-connection_string = '/dev/ttyACM0'  # Bağlantınıza uygun olarak değiştirin (örneğin, USB, seri, vb.)
+connection_string = '/dev/ttyUSB0'  # Bağlantınıza uygun olarak değiştirin (örneğin, USB, seri, vb.)
 baud_rate = 115200  # Gerekirse baud oranını güncelleyin
 
 # Pixhawk'a bağlan
 master = mavutil.mavlink_connection(connection_string, baud=baud_rate)
-
+print("Bağlandı")
 # Pixhawk'tan kalp atışını bekleyin
 while True:
     msg = master.recv_match(type='HEARTBEAT', blocking=True)
