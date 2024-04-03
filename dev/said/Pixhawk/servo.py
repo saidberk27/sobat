@@ -2,10 +2,10 @@ from pymavlink import mavutil
 import time
 
 # Pixhawk'a bağlanmak için seri portu belirtin (örneğin, '/dev/ttyACM0' veya '/dev/ttyUSB0')
-pixhawk_port = '/dev/ttyUSB0' #ttyACM0 miniusb bağlantısı için
+pixhawk_port = '/dev/ttyACM0' #ttyACM0 miniusb bağlantısı için
 
 # MAVLink bağlantısı oluşturun
-master = mavutil.mavlink_connection(pixhawk_port, baud=57600)
+master = mavutil.mavlink_connection(pixhawk_port, baud=115200)
 print("PixHawk Bağlandı!")
 # ESC'yi kontrol etmek için fonksiyon
 def control_esc(channel, pwm_value):
