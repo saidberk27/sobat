@@ -1,34 +1,45 @@
 import unittest
 from unittest.mock import MagicMock, patch
-from your_module_name import arm_and_control_vehicle
+from manual_control import ManualControl
 
-class TestArmAndControlVehicle(unittest.TestCase):
+class TestManualControl(unittest.TestCase):
 
-    @patch('your_module_name.mavutil')
+    @patch('manual_control.mavutil.mavlink_connection')
+    def test_getHeartBeat(self, mock_mavlink_connection):
+        manual_control_instance = ManualControl(pixhawk_port='/dev/ttyACM0', motor_hiz=750)
+        manual_control_instance.getHeartBeat()
+        mock_mavlink_connection.assert_called_once_with('/dev/ttyACM0', baud=115200)
+        mock_mavlink_connection.return_value.wait_heartbeat.assert_called_once()
+
+    @patch('manual_control.mavutil.mavlink_connection')
+    def test_armPixHawk(self, mock_mavlink_connection):
+        mock_master = MagicMock()
+        mock_mavlink_connection.return_value = mock_master
+
+        manual_control_instance = ManualControl(pixhawk_port='/dev/ttyACM0', motor_hiz=750)
+        manual_control_instance.armPixHawk()
+
+
+        mock_master.motors_armed_wait.assert_called_once()
+
+    @patch('manual_control.mavutil.mavlink_connection')
     @patch('time.sleep', MagicMock())
-    def test_arm_and_control_vehicle(self, mock_mavutil):
-        # Mocking mavutil.mavlink_connection
-        mock_connection = MagicMock()
-        mock_mavutil.mavlink_connection.return_value = mock_connection
+    def test_thrustMotors(self, mock_mavlink_connection):
+        mock_master = MagicMock()
+        mock_mavlink_connection.return_value = mock_master
 
-        # Mocking motors_armed_wait
-        mock_connection.motors_armed_wait.return_value = None
+        manual_control_instance = ManualControl(pixhawk_port='/dev/ttyACM0', motor_hiz=750)
+        manual_control_instance.thrustMotors()
 
-        arm_and_control_vehicle('/dev/test_port')
-
-        # Assertions
-        mock_mavutil.mavlink_connection.assert_called_once_with('/dev/test_port', baud=115200)
-        mock_connection.wait_heartbeat.assert_called_once()
-        mock_connection.mav.command_long_send.assert_called_once_with(
-            mock_connection.target_system,
-            mock_connection.target_component,
-            mock_mavutil.mavlink.MAV_CMD_COMPONENT_ARM_DISARM,
+        mock_master.mav.manual_control_send.assert_called_once_with(
+            mock_master.target_system,
+            manual_control_instance.motor_hiz,
             0,
-            1, 0, 0, 0, 0, 0, 0
+            0,
+            0,
+            0
         )
-        mock_connection.motors_armed_wait.assert_called_once()
-        self.assertTrue(mock_connection.mav.manual_control_send.called)
-        self.assertTrue(mock_connection.close.called)
+        mock_master.close.assert_called_once()
 
 if __name__ == '__main__':
     unittest.main()
