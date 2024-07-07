@@ -1,0 +1,25 @@
+[1.002s] Invoking command in '/home/said/Desktop/sobat/ROS2WorkSpace/src/motor_kontrol': AMENT_PREFIX_PATH=/home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces LD_LIBRARY_PATH=/home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/said/Desktop/sobat/ROS2WorkSpace/build/motor_kontrol/prefix_override:/home/said/Desktop/sobat/ROS2WorkSpace/install/motor_kontrol/lib/python3.8/site-packages:/home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/motor_kontrol build --build-base /home/said/Desktop/sobat/ROS2WorkSpace/build/motor_kontrol/build install --record /home/said/Desktop/sobat/ROS2WorkSpace/build/motor_kontrol/install.log --install-scripts $base/lib/motor_kontrol --single-version-externally-managed
+[1.170s] running egg_info
+[1.171s] writing ../../build/motor_kontrol/motor_kontrol.egg-info/PKG-INFO
+[1.171s] writing dependency_links to ../../build/motor_kontrol/motor_kontrol.egg-info/dependency_links.txt
+[1.171s] writing entry points to ../../build/motor_kontrol/motor_kontrol.egg-info/entry_points.txt
+[1.171s] writing requirements to ../../build/motor_kontrol/motor_kontrol.egg-info/requires.txt
+[1.171s] writing top-level names to ../../build/motor_kontrol/motor_kontrol.egg-info/top_level.txt
+[1.202s] reading manifest file '../../build/motor_kontrol/motor_kontrol.egg-info/SOURCES.txt'
+[1.202s] writing manifest file '../../build/motor_kontrol/motor_kontrol.egg-info/SOURCES.txt'
+[1.202s] running build
+[1.203s] running build_py
+[1.203s] copying motor_kontrol/klavye_kontrol.py -> /home/said/Desktop/sobat/ROS2WorkSpace/build/motor_kontrol/build/lib/motor_kontrol
+[1.203s] running install
+[1.204s] running install_lib
+[1.204s] copying /home/said/Desktop/sobat/ROS2WorkSpace/build/motor_kontrol/build/lib/motor_kontrol/klavye_kontrol.py -> /home/said/Desktop/sobat/ROS2WorkSpace/install/motor_kontrol/lib/python3.8/site-packages/motor_kontrol
+[1.205s] byte-compiling /home/said/Desktop/sobat/ROS2WorkSpace/install/motor_kontrol/lib/python3.8/site-packages/motor_kontrol/klavye_kontrol.py to klavye_kontrol.cpython-38.pyc
+[1.206s] running install_data
+[1.207s] running install_egg_info
+[1.208s] removing '/home/said/Desktop/sobat/ROS2WorkSpace/install/motor_kontrol/lib/python3.8/site-packages/motor_kontrol-0.0.0-py3.8.egg-info' (and everything under it)
+[1.208s] Copying ../../build/motor_kontrol/motor_kontrol.egg-info to /home/said/Desktop/sobat/ROS2WorkSpace/install/motor_kontrol/lib/python3.8/site-packages/motor_kontrol-0.0.0-py3.8.egg-info
+[1.209s] running install_scripts
+[1.223s] Installing ana_script script to /home/said/Desktop/sobat/ROS2WorkSpace/install/motor_kontrol/lib/motor_kontrol
+[1.223s] Installing dummy_script script to /home/said/Desktop/sobat/ROS2WorkSpace/install/motor_kontrol/lib/motor_kontrol
+[1.223s] writing list of installed files to '/home/said/Desktop/sobat/ROS2WorkSpace/build/motor_kontrol/install.log'
+[1.239s] Invoked command in '/home/said/Desktop/sobat/ROS2WorkSpace/src/motor_kontrol' returned '0': AMENT_PREFIX_PATH=/home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces LD_LIBRARY_PATH=/home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/said/Desktop/sobat/ROS2WorkSpace/build/motor_kontrol/prefix_override:/home/said/Desktop/sobat/ROS2WorkSpace/install/motor_kontrol/lib/python3.8/site-packages:/home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/motor_kontrol build --build-base /home/said/Desktop/sobat/ROS2WorkSpace/build/motor_kontrol/build install --record /home/said/Desktop/sobat/ROS2WorkSpace/build/motor_kontrol/install.log --install-scripts $base/lib/motor_kontrol --single-version-externally-managed

@@ -1,0 +1,17 @@
+[1.148s] Invoking command in '/home/said/Desktop/sobat/ROS2WorkSpace/build/motor_kontrol': PYTHONPATH=/home/said/Desktop/sobat/ROS2WorkSpace/build/motor_kontrol/prefix_override:/home/said/Desktop/sobat/ROS2WorkSpace/install/motor_kontrol/lib/python3.8/site-packages:/home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/lib/python3.8/site-packages:/home/said/Desktop/sobat/ROS2WorkSpace/build/torpido_gorev:/home/said/Desktop/sobat/ROS2WorkSpace/install/torpido_gorev/lib/python3.8/site-packages:/home/said/Desktop/sobat/ROS2WorkSpace/build/kablo_gorev:/home/said/Desktop/sobat/ROS2WorkSpace/install/kablo_gorev/lib/python3.8/site-packages:/home/said/Desktop/sobat/ROS2WorkSpace/build/halka_gorev:/home/said/Desktop/sobat/ROS2WorkSpace/install/halka_gorev/lib/python3.8/site-packages:/home/said/Desktop/sobat/ROS2WorkSpace/install/motor_kontrol/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --editable --build-directory /home/said/Desktop/sobat/ROS2WorkSpace/build/motor_kontrol/build --no-deps install_data
+[1.322s] running develop
+[1.419s] running egg_info
+[1.419s] writing motor_kontrol.egg-info/PKG-INFO
+[1.419s] writing dependency_links to motor_kontrol.egg-info/dependency_links.txt
+[1.419s] writing entry points to motor_kontrol.egg-info/entry_points.txt
+[1.419s] writing requirements to motor_kontrol.egg-info/requires.txt
+[1.419s] writing top-level names to motor_kontrol.egg-info/top_level.txt
+[1.444s] reading manifest file 'motor_kontrol.egg-info/SOURCES.txt'
+[1.444s] writing manifest file 'motor_kontrol.egg-info/SOURCES.txt'
+[1.469s] running build_ext
+[1.470s] Creating /home/said/Desktop/sobat/ROS2WorkSpace/install/motor_kontrol/lib/python3.8/site-packages/motor-kontrol.egg-link (link to .)
+[1.470s] Installing motor_kontrol_node script to /home/said/Desktop/sobat/ROS2WorkSpace/install/motor_kontrol/lib/motor_kontrol
+[1.471s] 
+[1.471s] Installed /home/said/Desktop/sobat/ROS2WorkSpace/build/motor_kontrol
+[1.471s] running install_data
+[1.489s] Invoked command in '/home/said/Desktop/sobat/ROS2WorkSpace/build/motor_kontrol' returned '0': PYTHONPATH=/home/said/Desktop/sobat/ROS2WorkSpace/build/motor_kontrol/prefix_override:/home/said/Desktop/sobat/ROS2WorkSpace/install/motor_kontrol/lib/python3.8/site-packages:/home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/lib/python3.8/site-packages:/home/said/Desktop/sobat/ROS2WorkSpace/build/torpido_gorev:/home/said/Desktop/sobat/ROS2WorkSpace/install/torpido_gorev/lib/python3.8/site-packages:/home/said/Desktop/sobat/ROS2WorkSpace/build/kablo_gorev:/home/said/Desktop/sobat/ROS2WorkSpace/install/kablo_gorev/lib/python3.8/site-packages:/home/said/Desktop/sobat/ROS2WorkSpace/build/halka_gorev:/home/said/Desktop/sobat/ROS2WorkSpace/install/halka_gorev/lib/python3.8/site-packages:/home/said/Desktop/sobat/ROS2WorkSpace/install/motor_kontrol/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --editable --build-directory /home/said/Desktop/sobat/ROS2WorkSpace/build/motor_kontrol/build --no-deps install_data

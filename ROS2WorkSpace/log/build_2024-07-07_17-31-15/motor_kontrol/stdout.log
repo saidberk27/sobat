@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/motor_kontrol/motor_kontrol.egg-info/PKG-INFO
+writing dependency_links to ../../build/motor_kontrol/motor_kontrol.egg-info/dependency_links.txt
+writing entry points to ../../build/motor_kontrol/motor_kontrol.egg-info/entry_points.txt
+writing requirements to ../../build/motor_kontrol/motor_kontrol.egg-info/requires.txt
+writing top-level names to ../../build/motor_kontrol/motor_kontrol.egg-info/top_level.txt
+reading manifest file '../../build/motor_kontrol/motor_kontrol.egg-info/SOURCES.txt'
+writing manifest file '../../build/motor_kontrol/motor_kontrol.egg-info/SOURCES.txt'
+running build
+running build_py
+copying motor_kontrol/klavye_kontrol.py -> /home/said/Desktop/sobat/ROS2WorkSpace/build/motor_kontrol/build/lib/motor_kontrol
+running install
+running install_lib
+copying /home/said/Desktop/sobat/ROS2WorkSpace/build/motor_kontrol/build/lib/motor_kontrol/klavye_kontrol.py -> /home/said/Desktop/sobat/ROS2WorkSpace/install/motor_kontrol/lib/python3.8/site-packages/motor_kontrol
+byte-compiling /home/said/Desktop/sobat/ROS2WorkSpace/install/motor_kontrol/lib/python3.8/site-packages/motor_kontrol/klavye_kontrol.py to klavye_kontrol.cpython-38.pyc
+running install_data
+running install_egg_info
+removing '/home/said/Desktop/sobat/ROS2WorkSpace/install/motor_kontrol/lib/python3.8/site-packages/motor_kontrol-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/motor_kontrol/motor_kontrol.egg-info to /home/said/Desktop/sobat/ROS2WorkSpace/install/motor_kontrol/lib/python3.8/site-packages/motor_kontrol-0.0.0-py3.8.egg-info
+running install_scripts
+Installing ana_script script to /home/said/Desktop/sobat/ROS2WorkSpace/install/motor_kontrol/lib/motor_kontrol
+Installing dummy_script script to /home/said/Desktop/sobat/ROS2WorkSpace/install/motor_kontrol/lib/motor_kontrol
+writing list of installed files to '/home/said/Desktop/sobat/ROS2WorkSpace/build/motor_kontrol/install.log'

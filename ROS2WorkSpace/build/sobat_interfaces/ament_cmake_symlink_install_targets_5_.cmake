@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/said/Desktop/sobat/ROS2WorkSpace/build/sobat_interfaces/rosidl_generator_py/sobat_interfaces/libsobat_interfaces__python.so" "TARGETS" "sobat_interfaces__python" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

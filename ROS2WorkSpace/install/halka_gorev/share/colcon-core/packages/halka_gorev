@@ -1,1 +1,1 @@
-rclpy:sobat_interfaces:std_msgs
+motor_kontrol:rclpy:sobat_interfaces:std_msgs

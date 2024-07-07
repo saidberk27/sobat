@@ -1,0 +1,177 @@
+[0.322s] Invoking command in '/home/said/Desktop/sobat/ROS2WorkSpace/build/sobat_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/said/Desktop/sobat/ROS2WorkSpace/install/torpido_gorev:/home/said/Desktop/sobat/ROS2WorkSpace/install/halka_gorev:/home/said/Desktop/sobat/ROS2WorkSpace/install/kablo_gorev:/opt/ros/foxy /usr/bin/cmake --build /home/said/Desktop/sobat/ROS2WorkSpace/build/sobat_interfaces -- -j8 -l8
+[0.342s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.360s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.360s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.512s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.514s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.517s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.629s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.666s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[0.764s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[0.842s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.847s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.867s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[0.867s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[0.886s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.886s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[0.886s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[0.903s] -- Configuring done
+[0.925s] -- Generating done
+[0.927s] -- Build files have been written to: /home/said/Desktop/sobat/ROS2WorkSpace/build/sobat_interfaces
+[0.949s] [35m[1mScanning dependencies of target sobat_interfaces__rosidl_generator_c[0m
+[0.957s] [  3%] Built target sobat_interfaces__cpp
+[0.957s] [  6%] [32mBuilding C object CMakeFiles/sobat_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sobat_interfaces/msg/detail/mesafe_sensor__functions.c.o[0m
+[0.966s] [35m[1mScanning dependencies of target sobat_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[0.966s] [35m[1mScanning dependencies of target sobat_interfaces__rosidl_typesupport_cpp[0m
+[0.966s] [35m[1mScanning dependencies of target sobat_interfaces__rosidl_typesupport_introspection_cpp[0m
+[0.975s] [ 12%] [32mBuilding CXX object CMakeFiles/sobat_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sobat_interfaces/msg/mesafe_sensor__type_support.cpp.o[0m
+[0.975s] [ 12%] [32mBuilding CXX object CMakeFiles/sobat_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sobat_interfaces/msg/detail/dds_fastrtps/mesafe_sensor__type_support.cpp.o[0m
+[0.976s] [ 16%] [32mBuilding CXX object CMakeFiles/sobat_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sobat_interfaces/msg/detail/mesafe_sensor__type_support.cpp.o[0m
+[1.007s] [ 19%] [32m[1mLinking C shared library libsobat_interfaces__rosidl_generator_c.so[0m
+[1.035s] [ 22%] Built target sobat_interfaces__rosidl_generator_c
+[1.044s] [35m[1mScanning dependencies of target sobat_interfaces__rosidl_typesupport_c[0m
+[1.048s] [35m[1mScanning dependencies of target sobat_interfaces__rosidl_typesupport_introspection_c[0m
+[1.057s] [ 25%] [32mBuilding CXX object CMakeFiles/sobat_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/sobat_interfaces/msg/mesafe_sensor__type_support.cpp.o[0m
+[1.061s] [ 29%] [32mBuilding C object CMakeFiles/sobat_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sobat_interfaces/msg/detail/mesafe_sensor__type_support.c.o[0m
+[1.091s] [ 32%] [32m[1mLinking CXX shared library libsobat_interfaces__rosidl_typesupport_c.so[0m
+[1.092s] [ 35%] [32m[1mLinking C shared library libsobat_interfaces__rosidl_typesupport_introspection_c.so[0m
+[1.118s] [ 38%] Built target sobat_interfaces__rosidl_typesupport_introspection_c
+[1.139s] [ 41%] Built target sobat_interfaces__rosidl_typesupport_c
+[1.227s] [ 45%] [32m[1mLinking CXX shared library libsobat_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[1.228s] [ 48%] [32m[1mLinking CXX shared library libsobat_interfaces__rosidl_typesupport_cpp.so[0m
+[1.260s] [ 51%] Built target sobat_interfaces__rosidl_typesupport_introspection_cpp
+[1.260s] [ 54%] Built target sobat_interfaces__rosidl_typesupport_cpp
+[1.334s] [ 58%] [32m[1mLinking CXX shared library libsobat_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.406s] [ 61%] Built target sobat_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.415s] [35m[1mScanning dependencies of target sobat_interfaces__rosidl_typesupport_fastrtps_c[0m
+[1.424s] [ 64%] [32mBuilding CXX object CMakeFiles/sobat_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sobat_interfaces/msg/detail/mesafe_sensor__type_support_c.cpp.o[0m
+[1.704s] [ 67%] [32m[1mLinking CXX shared library libsobat_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[1.782s] [ 70%] Built target sobat_interfaces__rosidl_typesupport_fastrtps_c
+[1.798s] [ 70%] Built target sobat_interfaces
+[1.814s] [ 74%] Built target sobat_interfaces__py
+[1.822s] [35m[1mScanning dependencies of target sobat_interfaces__python[0m
+[1.833s] [ 77%] [32mBuilding C object CMakeFiles/sobat_interfaces__python.dir/rosidl_generator_py/sobat_interfaces/msg/_mesafe_sensor_s.c.o[0m
+[1.904s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/sobat_interfaces/libsobat_interfaces__python.so[0m
+[1.933s] [ 80%] Built target sobat_interfaces__python
+[1.941s] [35m[1mScanning dependencies of target sobat_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[1.941s] [35m[1mScanning dependencies of target sobat_interfaces__rosidl_typesupport_c__pyext[0m
+[1.954s] [ 83%] [32m[1mLinking C shared library rosidl_generator_py/sobat_interfaces/sobat_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[1.954s] [ 90%] [32mBuilding C object CMakeFiles/sobat_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/sobat_interfaces/_sobat_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[1.954s] [ 90%] [32mBuilding C object CMakeFiles/sobat_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/sobat_interfaces/_sobat_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[1.981s] [ 93%] Built target sobat_interfaces__rosidl_typesupport_introspection_c__pyext
+[2.018s] [100%] [32m[1mLinking C shared library rosidl_generator_py/sobat_interfaces/sobat_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[2.018s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/sobat_interfaces/sobat_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[2.044s] [100%] Built target sobat_interfaces__rosidl_typesupport_c__pyext
+[2.068s] [100%] Built target sobat_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[2.078s] Invoked command in '/home/said/Desktop/sobat/ROS2WorkSpace/build/sobat_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/said/Desktop/sobat/ROS2WorkSpace/install/torpido_gorev:/home/said/Desktop/sobat/ROS2WorkSpace/install/halka_gorev:/home/said/Desktop/sobat/ROS2WorkSpace/install/kablo_gorev:/opt/ros/foxy /usr/bin/cmake --build /home/said/Desktop/sobat/ROS2WorkSpace/build/sobat_interfaces -- -j8 -l8
+[2.119s] Invoking command in '/home/said/Desktop/sobat/ROS2WorkSpace/build/sobat_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/said/Desktop/sobat/ROS2WorkSpace/install/torpido_gorev:/home/said/Desktop/sobat/ROS2WorkSpace/install/halka_gorev:/home/said/Desktop/sobat/ROS2WorkSpace/install/kablo_gorev:/opt/ros/foxy /usr/bin/cmake --install /home/said/Desktop/sobat/ROS2WorkSpace/build/sobat_interfaces
+[2.127s] -- Install configuration: ""
+[2.127s] -- Up-to-date: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/share/ament_index/resource_index/rosidl_interfaces/sobat_interfaces
+[2.127s] -- Up-to-date: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/include/sobat_interfaces
+[2.127s] -- Up-to-date: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/include/sobat_interfaces/msg
+[2.127s] -- Up-to-date: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/include/sobat_interfaces/msg/rosidl_generator_c__visibility_control.h
+[2.127s] -- Up-to-date: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/include/sobat_interfaces/msg/detail
+[2.127s] -- Up-to-date: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/include/sobat_interfaces/msg/detail/mesafe_sensor__functions.h
+[2.127s] -- Up-to-date: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/include/sobat_interfaces/msg/detail/mesafe_sensor__type_support.h
+[2.127s] -- Up-to-date: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/include/sobat_interfaces/msg/detail/mesafe_sensor__functions.c
+[2.127s] -- Up-to-date: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/include/sobat_interfaces/msg/detail/mesafe_sensor__struct.h
+[2.128s] -- Up-to-date: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/include/sobat_interfaces/msg/mesafe_sensor.h
+[2.128s] -- Installing: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/share/sobat_interfaces/environment/library_path.sh
+[2.128s] -- Installing: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/share/sobat_interfaces/environment/library_path.dsv
+[2.128s] -- Installing: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/lib/libsobat_interfaces__rosidl_generator_c.so
+[2.128s] -- Set runtime path of "/home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/lib/libsobat_interfaces__rosidl_generator_c.so" to ""
+[2.128s] -- Up-to-date: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/include/sobat_interfaces
+[2.128s] -- Up-to-date: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/include/sobat_interfaces/msg
+[2.128s] -- Up-to-date: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/include/sobat_interfaces/msg/detail
+[2.128s] -- Up-to-date: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/include/sobat_interfaces/msg/detail/mesafe_sensor__rosidl_typesupport_fastrtps_c.h
+[2.128s] -- Up-to-date: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/include/sobat_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.129s] -- Installing: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/lib/libsobat_interfaces__rosidl_typesupport_fastrtps_c.so
+[2.129s] -- Set runtime path of "/home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/lib/libsobat_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[2.129s] -- Up-to-date: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/include/sobat_interfaces
+[2.129s] -- Up-to-date: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/include/sobat_interfaces/msg
+[2.129s] -- Up-to-date: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/include/sobat_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.129s] -- Up-to-date: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/include/sobat_interfaces/msg/detail
+[2.129s] -- Up-to-date: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/include/sobat_interfaces/msg/detail/mesafe_sensor__rosidl_typesupport_fastrtps_cpp.hpp
+[2.130s] -- Installing: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/include/sobat_interfaces/msg/detail/dds_fastrtps
+[2.130s] -- Installing: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/lib/libsobat_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[2.130s] -- Set runtime path of "/home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/lib/libsobat_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[2.130s] -- Up-to-date: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/include/sobat_interfaces
+[2.130s] -- Up-to-date: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/include/sobat_interfaces/msg
+[2.130s] -- Up-to-date: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/include/sobat_interfaces/msg/detail
+[2.130s] -- Up-to-date: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/include/sobat_interfaces/msg/detail/mesafe_sensor__type_support.c
+[2.130s] -- Up-to-date: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/include/sobat_interfaces/msg/detail/mesafe_sensor__rosidl_typesupport_introspection_c.h
+[2.130s] -- Up-to-date: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/include/sobat_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.130s] -- Installing: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/lib/libsobat_interfaces__rosidl_typesupport_introspection_c.so
+[2.130s] -- Set runtime path of "/home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/lib/libsobat_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[2.131s] -- Installing: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/lib/libsobat_interfaces__rosidl_typesupport_c.so
+[2.131s] -- Set runtime path of "/home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/lib/libsobat_interfaces__rosidl_typesupport_c.so" to ""
+[2.131s] -- Up-to-date: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/include/sobat_interfaces
+[2.131s] -- Up-to-date: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/include/sobat_interfaces/msg
+[2.131s] -- Up-to-date: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/include/sobat_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.131s] -- Up-to-date: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/include/sobat_interfaces/msg/detail
+[2.131s] -- Up-to-date: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/include/sobat_interfaces/msg/detail/mesafe_sensor__type_support.hpp
+[2.131s] -- Up-to-date: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/include/sobat_interfaces/msg/detail/mesafe_sensor__traits.hpp
+[2.131s] -- Up-to-date: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/include/sobat_interfaces/msg/detail/mesafe_sensor__builder.hpp
+[2.132s] -- Up-to-date: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/include/sobat_interfaces/msg/detail/mesafe_sensor__struct.hpp
+[2.132s] -- Up-to-date: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/include/sobat_interfaces/msg/mesafe_sensor.hpp
+[2.132s] -- Up-to-date: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/include/sobat_interfaces
+[2.132s] -- Up-to-date: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/include/sobat_interfaces/msg
+[2.132s] -- Up-to-date: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/include/sobat_interfaces/msg/detail
+[2.132s] -- Up-to-date: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/include/sobat_interfaces/msg/detail/mesafe_sensor__rosidl_typesupport_introspection_cpp.hpp
+[2.132s] -- Up-to-date: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/include/sobat_interfaces/msg/detail/mesafe_sensor__type_support.cpp
+[2.132s] -- Installing: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/lib/libsobat_interfaces__rosidl_typesupport_introspection_cpp.so
+[2.132s] -- Set runtime path of "/home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/lib/libsobat_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[2.133s] -- Installing: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/lib/libsobat_interfaces__rosidl_typesupport_cpp.so
+[2.133s] -- Set runtime path of "/home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/lib/libsobat_interfaces__rosidl_typesupport_cpp.so" to ""
+[2.133s] -- Up-to-date: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/share/sobat_interfaces/environment/pythonpath.sh
+[2.133s] -- Installing: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/share/sobat_interfaces/environment/pythonpath.dsv
+[2.133s] -- Installing: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/lib/python3.8/site-packages/sobat_interfaces/__init__.py
+[2.157s] Compiling '/home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/lib/python3.8/site-packages/sobat_interfaces/__init__.py'...
+[2.160s] -- Up-to-date: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/lib/python3.8/site-packages/sobat_interfaces/msg
+[2.160s] -- Up-to-date: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/lib/python3.8/site-packages/sobat_interfaces/msg/__init__.py
+[2.160s] -- Up-to-date: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/lib/python3.8/site-packages/sobat_interfaces/msg/_mesafe_sensor_s.c
+[2.160s] -- Up-to-date: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/lib/python3.8/site-packages/sobat_interfaces/msg/_mesafe_sensor.py
+[2.160s] -- Installing: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/lib/python3.8/site-packages/sobat_interfaces/sobat_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[2.161s] -- Set runtime path of "/home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/lib/python3.8/site-packages/sobat_interfaces/sobat_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[2.161s] -- Installing: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/lib/python3.8/site-packages/sobat_interfaces/sobat_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[2.161s] -- Set runtime path of "/home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/lib/python3.8/site-packages/sobat_interfaces/sobat_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[2.162s] -- Installing: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/lib/python3.8/site-packages/sobat_interfaces/sobat_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[2.162s] -- Set runtime path of "/home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/lib/python3.8/site-packages/sobat_interfaces/sobat_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[2.162s] -- Installing: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/lib/libsobat_interfaces__python.so
+[2.163s] -- Set runtime path of "/home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/lib/libsobat_interfaces__python.so" to ""
+[2.163s] -- Up-to-date: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/share/sobat_interfaces/msg/MesafeSensor.idl
+[2.163s] -- Up-to-date: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/share/sobat_interfaces/msg/MesafeSensor.msg
+[2.163s] -- Up-to-date: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/share/ament_index/resource_index/package_run_dependencies/sobat_interfaces
+[2.163s] -- Installing: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/share/ament_index/resource_index/parent_prefix_path/sobat_interfaces
+[2.163s] -- Installing: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/share/sobat_interfaces/environment/ament_prefix_path.sh
+[2.163s] -- Installing: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/share/sobat_interfaces/environment/ament_prefix_path.dsv
+[2.164s] -- Installing: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/share/sobat_interfaces/environment/path.sh
+[2.164s] -- Installing: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/share/sobat_interfaces/environment/path.dsv
+[2.164s] -- Up-to-date: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/share/sobat_interfaces/local_setup.bash
+[2.164s] -- Up-to-date: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/share/sobat_interfaces/local_setup.sh
+[2.164s] -- Up-to-date: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/share/sobat_interfaces/local_setup.zsh
+[2.164s] -- Installing: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/share/sobat_interfaces/local_setup.dsv
+[2.164s] -- Installing: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/share/sobat_interfaces/package.dsv
+[2.164s] -- Up-to-date: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/share/ament_index/resource_index/packages/sobat_interfaces
+[2.165s] -- Up-to-date: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/share/sobat_interfaces/cmake/sobat_interfaces__rosidl_generator_cExport.cmake
+[2.165s] -- Installing: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/share/sobat_interfaces/cmake/sobat_interfaces__rosidl_generator_cExport-noconfig.cmake
+[2.165s] -- Up-to-date: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/share/sobat_interfaces/cmake/sobat_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[2.165s] -- Installing: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/share/sobat_interfaces/cmake/sobat_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.165s] -- Up-to-date: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/share/sobat_interfaces/cmake/sobat_interfaces__rosidl_typesupport_cExport.cmake
+[2.165s] -- Installing: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/share/sobat_interfaces/cmake/sobat_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[2.166s] -- Up-to-date: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/share/sobat_interfaces/cmake/sobat_interfaces__rosidl_generator_cppExport.cmake
+[2.166s] -- Up-to-date: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/share/sobat_interfaces/cmake/sobat_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[2.166s] -- Installing: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/share/sobat_interfaces/cmake/sobat_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.166s] -- Up-to-date: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/share/sobat_interfaces/cmake/sobat_interfaces__rosidl_typesupport_cppExport.cmake
+[2.166s] -- Installing: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/share/sobat_interfaces/cmake/sobat_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[2.166s] -- Up-to-date: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/share/sobat_interfaces/cmake/rosidl_cmake-extras.cmake
+[2.167s] -- Up-to-date: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/share/sobat_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.167s] -- Up-to-date: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/share/sobat_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[2.167s] -- Up-to-date: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/share/sobat_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[2.167s] -- Up-to-date: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/share/sobat_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.167s] -- Up-to-date: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/share/sobat_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.167s] -- Up-to-date: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/share/sobat_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.167s] -- Up-to-date: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/share/sobat_interfaces/cmake/sobat_interfacesConfig.cmake
+[2.167s] -- Up-to-date: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/share/sobat_interfaces/cmake/sobat_interfacesConfig-version.cmake
+[2.167s] -- Up-to-date: /home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/share/sobat_interfaces/package.xml
+[2.169s] Invoked command in '/home/said/Desktop/sobat/ROS2WorkSpace/build/sobat_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/said/Desktop/sobat/ROS2WorkSpace/install/torpido_gorev:/home/said/Desktop/sobat/ROS2WorkSpace/install/halka_gorev:/home/said/Desktop/sobat/ROS2WorkSpace/install/kablo_gorev:/opt/ros/foxy /usr/bin/cmake --install /home/said/Desktop/sobat/ROS2WorkSpace/build/sobat_interfaces

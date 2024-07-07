@@ -1,0 +1,20 @@
+[3.015s] Invoking command in '/home/said/Desktop/sobat/ROS2WorkSpace/build/halka_gorev': PYTHONPATH=/home/said/Desktop/sobat/ROS2WorkSpace/build/halka_gorev/prefix_override:/home/said/Desktop/sobat/ROS2WorkSpace/install/halka_gorev/lib/python3.8/site-packages:/home/said/Desktop/sobat/ROS2WorkSpace/build/motor_kontrol:/home/said/Desktop/sobat/ROS2WorkSpace/install/motor_kontrol/lib/python3.8/site-packages:/home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/lib/python3.8/site-packages:/home/said/Desktop/sobat/ROS2WorkSpace/install/torpido_gorev/lib/python3.8/site-packages:/home/said/Desktop/sobat/ROS2WorkSpace/install/halka_gorev/lib/python3.8/site-packages:/home/said/Desktop/sobat/ROS2WorkSpace/install/kablo_gorev/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --editable --build-directory /home/said/Desktop/sobat/ROS2WorkSpace/build/halka_gorev/build --no-deps install_data
+[3.234s] running develop
+[3.347s] running egg_info
+[3.347s] writing halka_gorev.egg-info/PKG-INFO
+[3.347s] writing dependency_links to halka_gorev.egg-info/dependency_links.txt
+[3.347s] writing entry points to halka_gorev.egg-info/entry_points.txt
+[3.348s] writing requirements to halka_gorev.egg-info/requires.txt
+[3.348s] writing top-level names to halka_gorev.egg-info/top_level.txt
+[3.375s] reading manifest file 'halka_gorev.egg-info/SOURCES.txt'
+[3.375s] writing manifest file 'halka_gorev.egg-info/SOURCES.txt'
+[3.404s] running build_ext
+[3.405s] Creating /home/said/Desktop/sobat/ROS2WorkSpace/install/halka_gorev/lib/python3.8/site-packages/site.py
+[3.406s] Creating /home/said/Desktop/sobat/ROS2WorkSpace/install/halka_gorev/lib/python3.8/site-packages/halka-gorev.egg-link (link to .)
+[3.406s] Installing dummy_mesafe script to /home/said/Desktop/sobat/ROS2WorkSpace/install/halka_gorev/lib/halka_gorev
+[3.406s] Installing halka_arama script to /home/said/Desktop/sobat/ROS2WorkSpace/install/halka_gorev/lib/halka_gorev
+[3.407s] Installing mesafe_sensoru_oku script to /home/said/Desktop/sobat/ROS2WorkSpace/install/halka_gorev/lib/halka_gorev
+[3.407s] 
+[3.407s] Installed /home/said/Desktop/sobat/ROS2WorkSpace/build/halka_gorev
+[3.407s] running install_data
+[3.715s] Invoked command in '/home/said/Desktop/sobat/ROS2WorkSpace/build/halka_gorev' returned '0': PYTHONPATH=/home/said/Desktop/sobat/ROS2WorkSpace/build/halka_gorev/prefix_override:/home/said/Desktop/sobat/ROS2WorkSpace/install/halka_gorev/lib/python3.8/site-packages:/home/said/Desktop/sobat/ROS2WorkSpace/build/motor_kontrol:/home/said/Desktop/sobat/ROS2WorkSpace/install/motor_kontrol/lib/python3.8/site-packages:/home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/lib/python3.8/site-packages:/home/said/Desktop/sobat/ROS2WorkSpace/install/torpido_gorev/lib/python3.8/site-packages:/home/said/Desktop/sobat/ROS2WorkSpace/install/halka_gorev/lib/python3.8/site-packages:/home/said/Desktop/sobat/ROS2WorkSpace/install/kablo_gorev/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --editable --build-directory /home/said/Desktop/sobat/ROS2WorkSpace/build/halka_gorev/build --no-deps install_data

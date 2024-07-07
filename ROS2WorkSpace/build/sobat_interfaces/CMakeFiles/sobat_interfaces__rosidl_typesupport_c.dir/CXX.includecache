@@ -26,6 +26,26 @@ rosidl_typesupport_c/visibility_control.h
 rosidl_typesupport_interface/macros.h
 /home/said/Desktop/sobat/ROS2WorkSpace/build/sobat_interfaces/rosidl_typesupport_c/sobat_interfaces/msg/rosidl_typesupport_interface/macros.h
 
+/home/said/Desktop/sobat/ROS2WorkSpace/build/sobat_interfaces/rosidl_typesupport_c/sobat_interfaces/msg/sobat_hareket__type_support.cpp
+cstddef
+/home/said/Desktop/sobat/ROS2WorkSpace/build/sobat_interfaces/rosidl_typesupport_c/sobat_interfaces/msg/cstddef
+rosidl_runtime_c/message_type_support_struct.h
+/home/said/Desktop/sobat/ROS2WorkSpace/build/sobat_interfaces/rosidl_typesupport_c/sobat_interfaces/msg/rosidl_runtime_c/message_type_support_struct.h
+sobat_interfaces/msg/rosidl_typesupport_c__visibility_control.h
+/home/said/Desktop/sobat/ROS2WorkSpace/build/sobat_interfaces/rosidl_typesupport_c/sobat_interfaces/msg/sobat_interfaces/msg/rosidl_typesupport_c__visibility_control.h
+sobat_interfaces/msg/detail/sobat_hareket__struct.h
+/home/said/Desktop/sobat/ROS2WorkSpace/build/sobat_interfaces/rosidl_typesupport_c/sobat_interfaces/msg/sobat_interfaces/msg/detail/sobat_hareket__struct.h
+rosidl_typesupport_c/identifier.h
+/home/said/Desktop/sobat/ROS2WorkSpace/build/sobat_interfaces/rosidl_typesupport_c/sobat_interfaces/msg/rosidl_typesupport_c/identifier.h
+rosidl_typesupport_c/message_type_support_dispatch.h
+/home/said/Desktop/sobat/ROS2WorkSpace/build/sobat_interfaces/rosidl_typesupport_c/sobat_interfaces/msg/rosidl_typesupport_c/message_type_support_dispatch.h
+rosidl_typesupport_c/type_support_map.h
+/home/said/Desktop/sobat/ROS2WorkSpace/build/sobat_interfaces/rosidl_typesupport_c/sobat_interfaces/msg/rosidl_typesupport_c/type_support_map.h
+rosidl_typesupport_c/visibility_control.h
+/home/said/Desktop/sobat/ROS2WorkSpace/build/sobat_interfaces/rosidl_typesupport_c/sobat_interfaces/msg/rosidl_typesupport_c/visibility_control.h
+rosidl_typesupport_interface/macros.h
+/home/said/Desktop/sobat/ROS2WorkSpace/build/sobat_interfaces/rosidl_typesupport_c/sobat_interfaces/msg/rosidl_typesupport_interface/macros.h
+
 /opt/ros/foxy/include/rosidl_runtime_c/message_type_support_struct.h
 rosidl_runtime_c/visibility_control.h
 /opt/ros/foxy/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h
@@ -53,6 +73,14 @@ cstddef
 /opt/ros/foxy/include/rosidl_typesupport_interface/macros.h
 
 rosidl_generator_c/sobat_interfaces/msg/detail/mesafe_sensor__struct.h
+stdbool.h
+-
+stddef.h
+-
+stdint.h
+-
+
+rosidl_generator_c/sobat_interfaces/msg/detail/sobat_hareket__struct.h
 stdbool.h
 -
 stddef.h

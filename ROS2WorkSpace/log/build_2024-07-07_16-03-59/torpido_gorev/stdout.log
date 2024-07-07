@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing torpido_gorev.egg-info/PKG-INFO
+writing dependency_links to torpido_gorev.egg-info/dependency_links.txt
+writing entry points to torpido_gorev.egg-info/entry_points.txt
+writing requirements to torpido_gorev.egg-info/requires.txt
+writing top-level names to torpido_gorev.egg-info/top_level.txt
+reading manifest file 'torpido_gorev.egg-info/SOURCES.txt'
+writing manifest file 'torpido_gorev.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/said/Desktop/sobat/ROS2WorkSpace/install/torpido_gorev/lib/python3.8/site-packages/site.py
+Creating /home/said/Desktop/sobat/ROS2WorkSpace/install/torpido_gorev/lib/python3.8/site-packages/torpido-gorev.egg-link (link to .)
+
+Installed /home/said/Desktop/sobat/ROS2WorkSpace/build/torpido_gorev
+running install_data

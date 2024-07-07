@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "../rosidl_generator_py/sobat_interfaces/msg/__init__.py"
   "../rosidl_generator_py/sobat_interfaces/msg/_mesafe_sensor.py"
   "../rosidl_generator_py/sobat_interfaces/msg/_mesafe_sensor_s.c"
+  "../rosidl_generator_py/sobat_interfaces/msg/_sobat_hareket.py"
+  "../rosidl_generator_py/sobat_interfaces/msg/_sobat_hareket_s.c"
   "CMakeFiles/sobat_interfaces__py"
 )
 

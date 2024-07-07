@@ -1,0 +1,20 @@
+[2.149s] Invoking command in '/home/said/Desktop/sobat/ROS2WorkSpace/src/torpido_gorev': AMENT_PREFIX_PATH=/home/said/Desktop/sobat/ROS2WorkSpace/install/motor_kontrol:/home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces LD_LIBRARY_PATH=/home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/said/Desktop/sobat/ROS2WorkSpace/build/torpido_gorev/prefix_override:/home/said/Desktop/sobat/ROS2WorkSpace/install/torpido_gorev/lib/python3.8/site-packages:/home/said/Desktop/sobat/ROS2WorkSpace/install/motor_kontrol/lib/python3.8/site-packages:/home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/torpido_gorev build --build-base /home/said/Desktop/sobat/ROS2WorkSpace/build/torpido_gorev/build install --record /home/said/Desktop/sobat/ROS2WorkSpace/build/torpido_gorev/install.log --install-scripts $base/lib/torpido_gorev --single-version-externally-managed
+[2.332s] running egg_info
+[2.333s] writing ../../build/torpido_gorev/torpido_gorev.egg-info/PKG-INFO
+[2.333s] writing dependency_links to ../../build/torpido_gorev/torpido_gorev.egg-info/dependency_links.txt
+[2.333s] writing entry points to ../../build/torpido_gorev/torpido_gorev.egg-info/entry_points.txt
+[2.333s] writing requirements to ../../build/torpido_gorev/torpido_gorev.egg-info/requires.txt
+[2.333s] writing top-level names to ../../build/torpido_gorev/torpido_gorev.egg-info/top_level.txt
+[2.363s] reading manifest file '../../build/torpido_gorev/torpido_gorev.egg-info/SOURCES.txt'
+[2.363s] writing manifest file '../../build/torpido_gorev/torpido_gorev.egg-info/SOURCES.txt'
+[2.363s] running build
+[2.363s] running build_py
+[2.364s] running install
+[2.364s] running install_lib
+[2.365s] running install_data
+[2.366s] running install_egg_info
+[2.367s] removing '/home/said/Desktop/sobat/ROS2WorkSpace/install/torpido_gorev/lib/python3.8/site-packages/torpido_gorev-0.0.0-py3.8.egg-info' (and everything under it)
+[2.367s] Copying ../../build/torpido_gorev/torpido_gorev.egg-info to /home/said/Desktop/sobat/ROS2WorkSpace/install/torpido_gorev/lib/python3.8/site-packages/torpido_gorev-0.0.0-py3.8.egg-info
+[2.368s] running install_scripts
+[2.384s] writing list of installed files to '/home/said/Desktop/sobat/ROS2WorkSpace/build/torpido_gorev/install.log'
+[2.674s] Invoked command in '/home/said/Desktop/sobat/ROS2WorkSpace/src/torpido_gorev' returned '0': AMENT_PREFIX_PATH=/home/said/Desktop/sobat/ROS2WorkSpace/install/motor_kontrol:/home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces LD_LIBRARY_PATH=/home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/said/Desktop/sobat/ROS2WorkSpace/build/torpido_gorev/prefix_override:/home/said/Desktop/sobat/ROS2WorkSpace/install/torpido_gorev/lib/python3.8/site-packages:/home/said/Desktop/sobat/ROS2WorkSpace/install/motor_kontrol/lib/python3.8/site-packages:/home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/torpido_gorev build --build-base /home/said/Desktop/sobat/ROS2WorkSpace/build/torpido_gorev/build install --record /home/said/Desktop/sobat/ROS2WorkSpace/build/torpido_gorev/install.log --install-scripts $base/lib/torpido_gorev --single-version-externally-managed

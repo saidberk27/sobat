@@ -1,0 +1,24 @@
+[1.211s] Invoking command in '/home/said/Desktop/sobat/ROS2WorkSpace/src/motor_kontrol': PYTHONPATH=/home/said/Desktop/sobat/ROS2WorkSpace/build/motor_kontrol/prefix_override:/home/said/Desktop/sobat/ROS2WorkSpace/install/motor_kontrol/lib/python3.8/site-packages:/home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/lib/python3.8/site-packages:/home/said/Desktop/sobat/ROS2WorkSpace/build/motor_kontrol:/home/said/Desktop/sobat/ROS2WorkSpace/build/torpido_gorev:/home/said/Desktop/sobat/ROS2WorkSpace/install/torpido_gorev/lib/python3.8/site-packages:/home/said/Desktop/sobat/ROS2WorkSpace/build/kablo_gorev:/home/said/Desktop/sobat/ROS2WorkSpace/install/kablo_gorev/lib/python3.8/site-packages:/home/said/Desktop/sobat/ROS2WorkSpace/build/halka_gorev:/home/said/Desktop/sobat/ROS2WorkSpace/install/halka_gorev/lib/python3.8/site-packages:/home/said/Desktop/sobat/ROS2WorkSpace/install/motor_kontrol/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/motor_kontrol build --build-base /home/said/Desktop/sobat/ROS2WorkSpace/build/motor_kontrol/build install --record /home/said/Desktop/sobat/ROS2WorkSpace/build/motor_kontrol/install.log --install-scripts $base/lib/motor_kontrol --single-version-externally-managed
+[1.367s] running egg_info
+[1.367s] writing ../../build/motor_kontrol/motor_kontrol.egg-info/PKG-INFO
+[1.367s] writing dependency_links to ../../build/motor_kontrol/motor_kontrol.egg-info/dependency_links.txt
+[1.367s] writing entry points to ../../build/motor_kontrol/motor_kontrol.egg-info/entry_points.txt
+[1.368s] writing requirements to ../../build/motor_kontrol/motor_kontrol.egg-info/requires.txt
+[1.368s] writing top-level names to ../../build/motor_kontrol/motor_kontrol.egg-info/top_level.txt
+[1.392s] reading manifest file '../../build/motor_kontrol/motor_kontrol.egg-info/SOURCES.txt'
+[1.393s] writing manifest file '../../build/motor_kontrol/motor_kontrol.egg-info/SOURCES.txt'
+[1.393s] running build
+[1.393s] running build_py
+[1.393s] copying motor_kontrol/kontrol_motor.py -> /home/said/Desktop/sobat/ROS2WorkSpace/build/motor_kontrol/build/lib/motor_kontrol
+[1.393s] running install
+[1.394s] running install_lib
+[1.395s] copying /home/said/Desktop/sobat/ROS2WorkSpace/build/motor_kontrol/build/lib/motor_kontrol/kontrol_motor.py -> /home/said/Desktop/sobat/ROS2WorkSpace/install/motor_kontrol/lib/python3.8/site-packages/motor_kontrol
+[1.395s] byte-compiling /home/said/Desktop/sobat/ROS2WorkSpace/install/motor_kontrol/lib/python3.8/site-packages/motor_kontrol/kontrol_motor.py to kontrol_motor.cpython-38.pyc
+[1.396s] running install_data
+[1.396s] running install_egg_info
+[1.398s] removing '/home/said/Desktop/sobat/ROS2WorkSpace/install/motor_kontrol/lib/python3.8/site-packages/motor_kontrol-0.0.0-py3.8.egg-info' (and everything under it)
+[1.398s] Copying ../../build/motor_kontrol/motor_kontrol.egg-info to /home/said/Desktop/sobat/ROS2WorkSpace/install/motor_kontrol/lib/python3.8/site-packages/motor_kontrol-0.0.0-py3.8.egg-info
+[1.398s] running install_scripts
+[1.410s] Installing ana_script script to /home/said/Desktop/sobat/ROS2WorkSpace/install/motor_kontrol/lib/motor_kontrol
+[1.410s] writing list of installed files to '/home/said/Desktop/sobat/ROS2WorkSpace/build/motor_kontrol/install.log'
+[1.425s] Invoked command in '/home/said/Desktop/sobat/ROS2WorkSpace/src/motor_kontrol' returned '0': PYTHONPATH=/home/said/Desktop/sobat/ROS2WorkSpace/build/motor_kontrol/prefix_override:/home/said/Desktop/sobat/ROS2WorkSpace/install/motor_kontrol/lib/python3.8/site-packages:/home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/lib/python3.8/site-packages:/home/said/Desktop/sobat/ROS2WorkSpace/build/motor_kontrol:/home/said/Desktop/sobat/ROS2WorkSpace/build/torpido_gorev:/home/said/Desktop/sobat/ROS2WorkSpace/install/torpido_gorev/lib/python3.8/site-packages:/home/said/Desktop/sobat/ROS2WorkSpace/build/kablo_gorev:/home/said/Desktop/sobat/ROS2WorkSpace/install/kablo_gorev/lib/python3.8/site-packages:/home/said/Desktop/sobat/ROS2WorkSpace/build/halka_gorev:/home/said/Desktop/sobat/ROS2WorkSpace/install/halka_gorev/lib/python3.8/site-packages:/home/said/Desktop/sobat/ROS2WorkSpace/install/motor_kontrol/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/motor_kontrol build --build-base /home/said/Desktop/sobat/ROS2WorkSpace/build/motor_kontrol/build install --record /home/said/Desktop/sobat/ROS2WorkSpace/build/motor_kontrol/install.log --install-scripts $base/lib/motor_kontrol --single-version-externally-managed

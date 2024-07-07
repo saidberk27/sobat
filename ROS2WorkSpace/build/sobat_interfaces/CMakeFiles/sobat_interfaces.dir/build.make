@@ -54,6 +54,7 @@ CMAKE_BINARY_DIR = /home/said/Desktop/sobat/ROS2WorkSpace/build/sobat_interfaces
 include CMakeFiles/sobat_interfaces.dir/progress.make
 
 CMakeFiles/sobat_interfaces: /home/said/Desktop/sobat/ROS2WorkSpace/src/sobat_interfaces/msg/MesafeSensor.msg
+CMakeFiles/sobat_interfaces: /home/said/Desktop/sobat/ROS2WorkSpace/src/sobat_interfaces/msg/SobatHareket.msg
 
 
 sobat_interfaces: CMakeFiles/sobat_interfaces

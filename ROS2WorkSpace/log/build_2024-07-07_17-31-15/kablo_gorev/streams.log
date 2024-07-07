@@ -1,0 +1,20 @@
+[2.491s] Invoking command in '/home/said/Desktop/sobat/ROS2WorkSpace/src/kablo_gorev': AMENT_PREFIX_PATH=/home/said/Desktop/sobat/ROS2WorkSpace/install/motor_kontrol:/home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces LD_LIBRARY_PATH=/home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/said/Desktop/sobat/ROS2WorkSpace/build/kablo_gorev/prefix_override:/home/said/Desktop/sobat/ROS2WorkSpace/install/kablo_gorev/lib/python3.8/site-packages:/home/said/Desktop/sobat/ROS2WorkSpace/install/motor_kontrol/lib/python3.8/site-packages:/home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/kablo_gorev build --build-base /home/said/Desktop/sobat/ROS2WorkSpace/build/kablo_gorev/build install --record /home/said/Desktop/sobat/ROS2WorkSpace/build/kablo_gorev/install.log --install-scripts $base/lib/kablo_gorev --single-version-externally-managed
+[2.679s] running egg_info
+[2.680s] writing ../../build/kablo_gorev/kablo_gorev.egg-info/PKG-INFO
+[2.680s] writing dependency_links to ../../build/kablo_gorev/kablo_gorev.egg-info/dependency_links.txt
+[2.680s] writing entry points to ../../build/kablo_gorev/kablo_gorev.egg-info/entry_points.txt
+[2.680s] writing requirements to ../../build/kablo_gorev/kablo_gorev.egg-info/requires.txt
+[2.680s] writing top-level names to ../../build/kablo_gorev/kablo_gorev.egg-info/top_level.txt
+[2.711s] reading manifest file '../../build/kablo_gorev/kablo_gorev.egg-info/SOURCES.txt'
+[2.711s] writing manifest file '../../build/kablo_gorev/kablo_gorev.egg-info/SOURCES.txt'
+[2.711s] running build
+[2.712s] running build_py
+[2.712s] running install
+[2.712s] running install_lib
+[2.713s] running install_data
+[2.714s] running install_egg_info
+[2.715s] removing '/home/said/Desktop/sobat/ROS2WorkSpace/install/kablo_gorev/lib/python3.8/site-packages/kablo_gorev-0.0.0-py3.8.egg-info' (and everything under it)
+[2.716s] Copying ../../build/kablo_gorev/kablo_gorev.egg-info to /home/said/Desktop/sobat/ROS2WorkSpace/install/kablo_gorev/lib/python3.8/site-packages/kablo_gorev-0.0.0-py3.8.egg-info
+[2.716s] running install_scripts
+[2.733s] writing list of installed files to '/home/said/Desktop/sobat/ROS2WorkSpace/build/kablo_gorev/install.log'
+[2.767s] Invoked command in '/home/said/Desktop/sobat/ROS2WorkSpace/src/kablo_gorev' returned '0': AMENT_PREFIX_PATH=/home/said/Desktop/sobat/ROS2WorkSpace/install/motor_kontrol:/home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces LD_LIBRARY_PATH=/home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/said/Desktop/sobat/ROS2WorkSpace/build/kablo_gorev/prefix_override:/home/said/Desktop/sobat/ROS2WorkSpace/install/kablo_gorev/lib/python3.8/site-packages:/home/said/Desktop/sobat/ROS2WorkSpace/install/motor_kontrol/lib/python3.8/site-packages:/home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/kablo_gorev build --build-base /home/said/Desktop/sobat/ROS2WorkSpace/build/kablo_gorev/build install --record /home/said/Desktop/sobat/ROS2WorkSpace/build/kablo_gorev/install.log --install-scripts $base/lib/kablo_gorev --single-version-externally-managed

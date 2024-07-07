@@ -20,6 +20,20 @@ string.h
 rcutils/allocator.h
 /home/said/Desktop/sobat/ROS2WorkSpace/build/sobat_interfaces/rosidl_generator_c/sobat_interfaces/msg/detail/rcutils/allocator.h
 
+/home/said/Desktop/sobat/ROS2WorkSpace/build/sobat_interfaces/rosidl_generator_c/sobat_interfaces/msg/detail/sobat_hareket__functions.c
+sobat_interfaces/msg/detail/sobat_hareket__functions.h
+/home/said/Desktop/sobat/ROS2WorkSpace/build/sobat_interfaces/rosidl_generator_c/sobat_interfaces/msg/detail/sobat_interfaces/msg/detail/sobat_hareket__functions.h
+assert.h
+-
+stdbool.h
+-
+stdlib.h
+-
+string.h
+-
+rcutils/allocator.h
+/home/said/Desktop/sobat/ROS2WorkSpace/build/sobat_interfaces/rosidl_generator_c/sobat_interfaces/msg/detail/rcutils/allocator.h
+
 /opt/ros/foxy/include/rcutils/allocator.h
 stdbool.h
 -
@@ -75,6 +89,26 @@ sobat_interfaces/msg/detail/mesafe_sensor__struct.h
 rosidl_generator_c/sobat_interfaces/msg/detail/sobat_interfaces/msg/detail/mesafe_sensor__struct.h
 
 rosidl_generator_c/sobat_interfaces/msg/detail/mesafe_sensor__struct.h
+stdbool.h
+-
+stddef.h
+-
+stdint.h
+-
+
+rosidl_generator_c/sobat_interfaces/msg/detail/sobat_hareket__functions.h
+stdbool.h
+-
+stdlib.h
+-
+rosidl_runtime_c/visibility_control.h
+rosidl_generator_c/sobat_interfaces/msg/detail/rosidl_runtime_c/visibility_control.h
+sobat_interfaces/msg/rosidl_generator_c__visibility_control.h
+rosidl_generator_c/sobat_interfaces/msg/detail/sobat_interfaces/msg/rosidl_generator_c__visibility_control.h
+sobat_interfaces/msg/detail/sobat_hareket__struct.h
+rosidl_generator_c/sobat_interfaces/msg/detail/sobat_interfaces/msg/detail/sobat_hareket__struct.h
+
+rosidl_generator_c/sobat_interfaces/msg/detail/sobat_hareket__struct.h
 stdbool.h
 -
 stddef.h

@@ -57,8 +57,10 @@ sobat_interfaces__py/CMakeFiles/sobat_interfaces__py: rosidl_generator_py/sobat_
 sobat_interfaces__py/CMakeFiles/sobat_interfaces__py: rosidl_generator_py/sobat_interfaces/_sobat_interfaces_s.ep.rosidl_typesupport_introspection_c.c
 sobat_interfaces__py/CMakeFiles/sobat_interfaces__py: rosidl_generator_py/sobat_interfaces/_sobat_interfaces_s.ep.rosidl_typesupport_c.c
 sobat_interfaces__py/CMakeFiles/sobat_interfaces__py: rosidl_generator_py/sobat_interfaces/msg/_mesafe_sensor.py
+sobat_interfaces__py/CMakeFiles/sobat_interfaces__py: rosidl_generator_py/sobat_interfaces/msg/_sobat_hareket.py
 sobat_interfaces__py/CMakeFiles/sobat_interfaces__py: rosidl_generator_py/sobat_interfaces/msg/__init__.py
 sobat_interfaces__py/CMakeFiles/sobat_interfaces__py: rosidl_generator_py/sobat_interfaces/msg/_mesafe_sensor_s.c
+sobat_interfaces__py/CMakeFiles/sobat_interfaces__py: rosidl_generator_py/sobat_interfaces/msg/_sobat_hareket_s.c
 
 
 rosidl_generator_py/sobat_interfaces/_sobat_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/lib/rosidl_generator_py/rosidl_generator_py
@@ -75,6 +77,7 @@ rosidl_generator_py/sobat_interfaces/_sobat_interfaces_s.ep.rosidl_typesupport_f
 rosidl_generator_py/sobat_interfaces/_sobat_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/rosidl_generator_py/resource/_srv_pkg_typesupport_entry_point.c.em
 rosidl_generator_py/sobat_interfaces/_sobat_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/rosidl_generator_py/resource/_srv.py.em
 rosidl_generator_py/sobat_interfaces/_sobat_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/sobat_interfaces/msg/MesafeSensor.idl
+rosidl_generator_py/sobat_interfaces/_sobat_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/sobat_interfaces/msg/SobatHareket.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/said/Desktop/sobat/ROS2WorkSpace/build/sobat_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
 	cd /home/said/Desktop/sobat/ROS2WorkSpace/build/sobat_interfaces/sobat_interfaces__py && /usr/bin/python3 /opt/ros/foxy/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/said/Desktop/sobat/ROS2WorkSpace/build/sobat_interfaces/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
 
@@ -87,19 +90,27 @@ rosidl_generator_py/sobat_interfaces/_sobat_interfaces_s.ep.rosidl_typesupport_c
 rosidl_generator_py/sobat_interfaces/msg/_mesafe_sensor.py: rosidl_generator_py/sobat_interfaces/_sobat_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/sobat_interfaces/msg/_mesafe_sensor.py
 
+rosidl_generator_py/sobat_interfaces/msg/_sobat_hareket.py: rosidl_generator_py/sobat_interfaces/_sobat_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/sobat_interfaces/msg/_sobat_hareket.py
+
 rosidl_generator_py/sobat_interfaces/msg/__init__.py: rosidl_generator_py/sobat_interfaces/_sobat_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/sobat_interfaces/msg/__init__.py
 
 rosidl_generator_py/sobat_interfaces/msg/_mesafe_sensor_s.c: rosidl_generator_py/sobat_interfaces/_sobat_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/sobat_interfaces/msg/_mesafe_sensor_s.c
 
+rosidl_generator_py/sobat_interfaces/msg/_sobat_hareket_s.c: rosidl_generator_py/sobat_interfaces/_sobat_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/sobat_interfaces/msg/_sobat_hareket_s.c
+
 sobat_interfaces__py: sobat_interfaces__py/CMakeFiles/sobat_interfaces__py
 sobat_interfaces__py: rosidl_generator_py/sobat_interfaces/_sobat_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 sobat_interfaces__py: rosidl_generator_py/sobat_interfaces/_sobat_interfaces_s.ep.rosidl_typesupport_introspection_c.c
 sobat_interfaces__py: rosidl_generator_py/sobat_interfaces/_sobat_interfaces_s.ep.rosidl_typesupport_c.c
 sobat_interfaces__py: rosidl_generator_py/sobat_interfaces/msg/_mesafe_sensor.py
+sobat_interfaces__py: rosidl_generator_py/sobat_interfaces/msg/_sobat_hareket.py
 sobat_interfaces__py: rosidl_generator_py/sobat_interfaces/msg/__init__.py
 sobat_interfaces__py: rosidl_generator_py/sobat_interfaces/msg/_mesafe_sensor_s.c
+sobat_interfaces__py: rosidl_generator_py/sobat_interfaces/msg/_sobat_hareket_s.c
 sobat_interfaces__py: sobat_interfaces__py/CMakeFiles/sobat_interfaces__py.dir/build.make
 
 .PHONY : sobat_interfaces__py

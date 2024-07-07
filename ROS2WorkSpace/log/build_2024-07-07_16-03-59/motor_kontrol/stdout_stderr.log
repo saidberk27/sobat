@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing motor_kontrol.egg-info/PKG-INFO
+writing dependency_links to motor_kontrol.egg-info/dependency_links.txt
+writing entry points to motor_kontrol.egg-info/entry_points.txt
+writing requirements to motor_kontrol.egg-info/requires.txt
+writing top-level names to motor_kontrol.egg-info/top_level.txt
+reading manifest file 'motor_kontrol.egg-info/SOURCES.txt'
+writing manifest file 'motor_kontrol.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/said/Desktop/sobat/ROS2WorkSpace/install/motor_kontrol/lib/python3.8/site-packages/site.py
+Creating /home/said/Desktop/sobat/ROS2WorkSpace/install/motor_kontrol/lib/python3.8/site-packages/motor-kontrol.egg-link (link to .)
+Installing motor_kontrol_node script to /home/said/Desktop/sobat/ROS2WorkSpace/install/motor_kontrol/lib/motor_kontrol
+
+Installed /home/said/Desktop/sobat/ROS2WorkSpace/build/motor_kontrol
+running install_data
+copying package.xml -> /home/said/Desktop/sobat/ROS2WorkSpace/install/motor_kontrol/share/motor_kontrol

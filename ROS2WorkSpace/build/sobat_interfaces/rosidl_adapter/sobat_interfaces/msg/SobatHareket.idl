@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from sobat_interfaces/msg/SobatHareket.msg
+// generated code does not contain a copyright notice
+
+
+module sobat_interfaces {
+  module msg {
+    struct SobatHareket {
+      boolean ileri;
+
+      boolean geri;
+
+      boolean sag;
+
+      boolean sol;
+
+      boolean yukari;
+
+      boolean asagi;
+    };
+  };
+};

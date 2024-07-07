@@ -1,9 +1,12 @@
 file(REMOVE_RECURSE
   "CMakeFiles/sobat_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sobat_interfaces/msg/detail/dds_fastrtps/mesafe_sensor__type_support.cpp.o"
+  "CMakeFiles/sobat_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sobat_interfaces/msg/detail/dds_fastrtps/sobat_hareket__type_support.cpp.o"
   "libsobat_interfaces__rosidl_typesupport_fastrtps_cpp.pdb"
   "libsobat_interfaces__rosidl_typesupport_fastrtps_cpp.so"
   "rosidl_typesupport_fastrtps_cpp/sobat_interfaces/msg/detail/dds_fastrtps/mesafe_sensor__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/sobat_interfaces/msg/detail/dds_fastrtps/sobat_hareket__type_support.cpp"
   "rosidl_typesupport_fastrtps_cpp/sobat_interfaces/msg/detail/mesafe_sensor__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/sobat_interfaces/msg/detail/sobat_hareket__rosidl_typesupport_fastrtps_cpp.hpp"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,0 +1,17 @@
+[2.271s] Invoking command in '/home/said/Desktop/sobat/ROS2WorkSpace/build/torpido_gorev': PYTHONPATH=/home/said/Desktop/sobat/ROS2WorkSpace/build/torpido_gorev/prefix_override:/home/said/Desktop/sobat/ROS2WorkSpace/install/torpido_gorev/lib/python3.8/site-packages:/home/said/Desktop/sobat/ROS2WorkSpace/build/motor_kontrol:/home/said/Desktop/sobat/ROS2WorkSpace/install/motor_kontrol/lib/python3.8/site-packages:/home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/lib/python3.8/site-packages:/home/said/Desktop/sobat/ROS2WorkSpace/install/torpido_gorev/lib/python3.8/site-packages:/home/said/Desktop/sobat/ROS2WorkSpace/install/halka_gorev/lib/python3.8/site-packages:/home/said/Desktop/sobat/ROS2WorkSpace/install/kablo_gorev/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --editable --build-directory /home/said/Desktop/sobat/ROS2WorkSpace/build/torpido_gorev/build --no-deps install_data
+[2.510s] running develop
+[2.617s] running egg_info
+[2.617s] writing torpido_gorev.egg-info/PKG-INFO
+[2.617s] writing dependency_links to torpido_gorev.egg-info/dependency_links.txt
+[2.617s] writing entry points to torpido_gorev.egg-info/entry_points.txt
+[2.617s] writing requirements to torpido_gorev.egg-info/requires.txt
+[2.617s] writing top-level names to torpido_gorev.egg-info/top_level.txt
+[2.644s] reading manifest file 'torpido_gorev.egg-info/SOURCES.txt'
+[2.645s] writing manifest file 'torpido_gorev.egg-info/SOURCES.txt'
+[2.673s] running build_ext
+[2.673s] Creating /home/said/Desktop/sobat/ROS2WorkSpace/install/torpido_gorev/lib/python3.8/site-packages/site.py
+[2.674s] Creating /home/said/Desktop/sobat/ROS2WorkSpace/install/torpido_gorev/lib/python3.8/site-packages/torpido-gorev.egg-link (link to .)
+[2.675s] 
+[2.675s] Installed /home/said/Desktop/sobat/ROS2WorkSpace/build/torpido_gorev
+[2.675s] running install_data
+[3.263s] Invoked command in '/home/said/Desktop/sobat/ROS2WorkSpace/build/torpido_gorev' returned '0': PYTHONPATH=/home/said/Desktop/sobat/ROS2WorkSpace/build/torpido_gorev/prefix_override:/home/said/Desktop/sobat/ROS2WorkSpace/install/torpido_gorev/lib/python3.8/site-packages:/home/said/Desktop/sobat/ROS2WorkSpace/build/motor_kontrol:/home/said/Desktop/sobat/ROS2WorkSpace/install/motor_kontrol/lib/python3.8/site-packages:/home/said/Desktop/sobat/ROS2WorkSpace/install/sobat_interfaces/lib/python3.8/site-packages:/home/said/Desktop/sobat/ROS2WorkSpace/install/torpido_gorev/lib/python3.8/site-packages:/home/said/Desktop/sobat/ROS2WorkSpace/install/halka_gorev/lib/python3.8/site-packages:/home/said/Desktop/sobat/ROS2WorkSpace/install/kablo_gorev/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --editable --build-directory /home/said/Desktop/sobat/ROS2WorkSpace/build/torpido_gorev/build --no-deps install_data

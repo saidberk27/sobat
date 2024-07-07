@@ -98,4 +98,7 @@ CMakeFiles/sobat_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py
  rosidl_generator_c/sobat_interfaces/msg/detail/mesafe_sensor__functions.h
  rosidl_generator_c/sobat_interfaces/msg/detail/mesafe_sensor__struct.h
  rosidl_generator_c/sobat_interfaces/msg/detail/mesafe_sensor__type_support.h
+ rosidl_generator_c/sobat_interfaces/msg/detail/sobat_hareket__functions.h
+ rosidl_generator_c/sobat_interfaces/msg/detail/sobat_hareket__struct.h
+ rosidl_generator_c/sobat_interfaces/msg/detail/sobat_hareket__type_support.h
  rosidl_generator_c/sobat_interfaces/msg/rosidl_generator_c__visibility_control.h

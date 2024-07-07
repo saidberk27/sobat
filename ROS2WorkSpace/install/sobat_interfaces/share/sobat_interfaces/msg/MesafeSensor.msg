@@ -1,5 +1,1 @@
-float32 mesafe_sensor1
-float32 mesafe_sensor2
-float32 mesafe_sensor3
-float32 mesafe_sensor4
-float32 mesafe_sensor5
+/home/said/Desktop/sobat/ROS2WorkSpace/src/sobat_interfaces/msg/MesafeSensor.msg

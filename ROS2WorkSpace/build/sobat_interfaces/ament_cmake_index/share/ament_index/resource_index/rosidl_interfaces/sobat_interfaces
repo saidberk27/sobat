@@ -1,2 +1,4 @@
 msg/MesafeSensor.idl
 msg/MesafeSensor.msg
+msg/SobatHareket.idl
+msg/SobatHareket.msg

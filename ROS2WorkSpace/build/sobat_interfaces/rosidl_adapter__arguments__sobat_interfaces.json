@@ -1,6 +1,7 @@
 {
   "package_name": "sobat_interfaces",
   "non_idl_tuples": [
-    "/home/said/Desktop/sobat/ROS2WorkSpace/src/sobat_interfaces:msg/MesafeSensor.msg"
+    "/home/said/Desktop/sobat/ROS2WorkSpace/src/sobat_interfaces:msg/MesafeSensor.msg",
+    "/home/said/Desktop/sobat/ROS2WorkSpace/src/sobat_interfaces:msg/SobatHareket.msg"
   ]
 }

@@ -27,6 +27,12 @@ sobat_interfaces/msg/detail/mesafe_sensor__struct.h
 /home/said/Desktop/sobat/ROS2WorkSpace/build/sobat_interfaces/rosidl_generator_py/sobat_interfaces/sobat_interfaces/msg/detail/mesafe_sensor__struct.h
 sobat_interfaces/msg/detail/mesafe_sensor__functions.h
 /home/said/Desktop/sobat/ROS2WorkSpace/build/sobat_interfaces/rosidl_generator_py/sobat_interfaces/sobat_interfaces/msg/detail/mesafe_sensor__functions.h
+sobat_interfaces/msg/detail/sobat_hareket__type_support.h
+/home/said/Desktop/sobat/ROS2WorkSpace/build/sobat_interfaces/rosidl_generator_py/sobat_interfaces/sobat_interfaces/msg/detail/sobat_hareket__type_support.h
+sobat_interfaces/msg/detail/sobat_hareket__struct.h
+/home/said/Desktop/sobat/ROS2WorkSpace/build/sobat_interfaces/rosidl_generator_py/sobat_interfaces/sobat_interfaces/msg/detail/sobat_hareket__struct.h
+sobat_interfaces/msg/detail/sobat_hareket__functions.h
+/home/said/Desktop/sobat/ROS2WorkSpace/build/sobat_interfaces/rosidl_generator_py/sobat_interfaces/sobat_interfaces/msg/detail/sobat_hareket__functions.h
 
 /opt/ros/foxy/include/rosidl_runtime_c/action_type_support_struct.h
 rosidl_runtime_c/message_type_support_struct.h
@@ -577,6 +583,34 @@ stdint.h
 -
 
 rosidl_generator_c/sobat_interfaces/msg/detail/mesafe_sensor__type_support.h
+rosidl_typesupport_interface/macros.h
+rosidl_generator_c/sobat_interfaces/msg/detail/rosidl_typesupport_interface/macros.h
+sobat_interfaces/msg/rosidl_generator_c__visibility_control.h
+rosidl_generator_c/sobat_interfaces/msg/detail/sobat_interfaces/msg/rosidl_generator_c__visibility_control.h
+rosidl_runtime_c/message_type_support_struct.h
+rosidl_generator_c/sobat_interfaces/msg/detail/rosidl_runtime_c/message_type_support_struct.h
+
+rosidl_generator_c/sobat_interfaces/msg/detail/sobat_hareket__functions.h
+stdbool.h
+-
+stdlib.h
+-
+rosidl_runtime_c/visibility_control.h
+rosidl_generator_c/sobat_interfaces/msg/detail/rosidl_runtime_c/visibility_control.h
+sobat_interfaces/msg/rosidl_generator_c__visibility_control.h
+rosidl_generator_c/sobat_interfaces/msg/detail/sobat_interfaces/msg/rosidl_generator_c__visibility_control.h
+sobat_interfaces/msg/detail/sobat_hareket__struct.h
+rosidl_generator_c/sobat_interfaces/msg/detail/sobat_interfaces/msg/detail/sobat_hareket__struct.h
+
+rosidl_generator_c/sobat_interfaces/msg/detail/sobat_hareket__struct.h
+stdbool.h
+-
+stddef.h
+-
+stdint.h
+-
+
+rosidl_generator_c/sobat_interfaces/msg/detail/sobat_hareket__type_support.h
 rosidl_typesupport_interface/macros.h
 rosidl_generator_c/sobat_interfaces/msg/detail/rosidl_typesupport_interface/macros.h
 sobat_interfaces/msg/rosidl_generator_c__visibility_control.h

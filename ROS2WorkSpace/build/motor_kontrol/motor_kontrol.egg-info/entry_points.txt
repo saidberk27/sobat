@@ -1,0 +1,5 @@
+[console_scripts]
+ana_script = motor_kontrol.kontrol_motor:main
+dummy_script = motor_kontrol.dummy_motor:main
+klavye_script = motor_kontrol.klavye_kontrol:main
+
